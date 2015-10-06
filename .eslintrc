@@ -93,7 +93,11 @@
     "no-fallthrough": 0,
     "default-case": 0,
     "no-plusplus": 0,
-    "dot-notation": 0
+    "dot-notation": 0,
+    "react/jsx-quotes": [
+      2,
+      "double"
+    ]
   },
   "env": {
     "browser": true,
