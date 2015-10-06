@@ -96,7 +96,7 @@
     "dot-notation": 0,
     "jsx-quotes": [
       2,
-      "double"
+      "prefer-double"
     ]
   },
   "env": {
