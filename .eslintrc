@@ -97,7 +97,8 @@
     "jsx-quotes": [
       2,
       "prefer-double"
-    ]
+    ],
+    "eol-last": 2
   },
   "env": {
     "browser": true,
