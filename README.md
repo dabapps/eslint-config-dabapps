@@ -7,7 +7,7 @@ Recommended to pin a specific version.
 
 ```json
 "devDependencies": {
-  "eslint-config": "git://github.com/dabapps/eslint-config.git#1.0.0",
+  "eslint-config": "git://github.com/dabapps/eslint-config.git#1.1.4",
 }
 ```
 
