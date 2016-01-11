@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/dabapps/eslint-config",
   "dependencies": {
+    "babel-eslint": "=4.1.6",
     "eslint": "=1.5.0",
     "eslint-plugin-react": "=3.4.2"
   }
