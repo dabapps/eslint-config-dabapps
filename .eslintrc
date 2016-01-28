@@ -98,7 +98,8 @@
       2,
       "prefer-double"
     ],
-    "eol-last": 2
+    "eol-last": 2,
+    "react-native/no-unused-styles": 2
   },
   "env": {
     "browser": true,
@@ -110,6 +111,7 @@
     "modules": true
   },
   "plugins": [
-    "react"
+    "react",
+    "react-native"
   ]
 }
