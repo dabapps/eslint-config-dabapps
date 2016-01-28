@@ -110,6 +110,7 @@
     "modules": true
   },
   "plugins": [
-    "react"
+    "react",
+    "react-native"
   ]
 }
