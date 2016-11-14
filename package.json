@@ -26,5 +26,13 @@
   "bugs": {
     "url": "https://github.com/dabapps/eslint-config/issues"
   },
-  "homepage": "https://github.com/dabapps/eslint-config"
+  "homepage": "https://github.com/dabapps/eslint-config",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "eslint": "=3.10.0"
+  },
+  "peerDependencies": {
+    "eslint": "=3.10.0"
+  }
 }
