@@ -48,7 +48,7 @@ Add a file in the root of your project that extends a particular config.
 **.eslintrc**
 ```json
 {
-  "extends": "./node_modules/eslint-config/react-native/.eslintrc",
+  "extends": "eslint-config-dabapps/react-native/.eslintrc",
 }
 ```
 
