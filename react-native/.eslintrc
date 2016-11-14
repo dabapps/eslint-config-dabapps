@@ -1,6 +1,7 @@
 {
   "extends": "../react/.eslintrc",
   "env": {
+    jasmine: true,
     jest: true
   },
   "plugins": [
