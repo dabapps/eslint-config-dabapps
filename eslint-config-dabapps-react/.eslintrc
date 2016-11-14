@@ -1,0 +1,12 @@
+{
+  "extends": "../eslint-config-dabapps-base",
+  "env": {
+    "es6": true
+  },
+  "ecmaFeatures": {
+    "jsx":true
+  },
+  "rules": {
+    "jsx-quotes": [ 2, "prefer-double"]
+  }
+}

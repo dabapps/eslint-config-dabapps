@@ -1,0 +1,12 @@
+{
+  "extends": "../eslint-config-dabapps-react",
+  "env": [
+    jest: true
+  ],
+  "plugins": [
+    "react-native",
+  ],
+  "rules": {
+    "react-native/no-unused-styles": 2
+  }
+}
