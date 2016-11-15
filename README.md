@@ -25,25 +25,6 @@ Then you have to choose between the different configs, depending on the project 
   - react
   - react-native
 
-You'll also need to include eslint & any other plugins/parsers that are needed in your package.json. Particularly:
-
-##### Base
-
-  - Requires no plugins.
-
-##### React
-`npm install --save-dev --save-exact babel-eslint eslint-plugin-react`
-
-  - `babel-eslint`
-  - `eslint-plugin-react`
-
-##### React Native
-`npm install --save-dev --save-exact babel-eslint eslint-plugin-react eslint-plugin-react-native`
-
-  - `babel-eslint`
-  - `eslint-plugin-react`
-  - `eslint-plugin-react-native`
-
 
 ## Running eslint
 
