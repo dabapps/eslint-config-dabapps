@@ -12,6 +12,7 @@
   },
   "plugins": [
     "react",
+    "import"
   ],
   "rules": {
     "jsx-quotes": [2, "prefer-double"],
