@@ -1,35 +1,54 @@
 # DabApps ESLint Configuration
 
+
+## About
+This repository includes 3 different configs that inherit from each other.
+
+  - Base
+  - React (extends the `base`)
+  - React Native (extends `react`, `base`)
+
+
 ## Install
 
-If there's a suitable version of eslint-config, include the eslint-config in your package.json.
-Recommended to pin a specific version.
+Install a specific version of the eslint-config in your package.json. 
 
 ```json
 "devDependencies": {
-  "eslint-config": "git://github.com/dabapps/eslint-config.git#1.1.4",
+  "eslint-config": "git://github.com/dabapps/eslint-config.git#2.0.0",
 }
 ```
 
-If you need additional plugins or some slightly different config, you can just copy the rules & create your own eslintrc file (but this shouldn't be nessecary).
+Then you have to choose between the different configs, depending on the project type. Currently there are 3 different configs.
 
-You'll also need to include eslint & any other plugins that are needed in your package.json.
-You can find out suitable versions from eslint-config's package.json.
+  - base
+  - react
+  - react-native
 
-```json
-"devDependencies": {
-  "eslint": "=1.5.1",
-  "eslint-plugin-react": "=3.5.0"
-}
-```
+You'll also need to include eslint & any other plugins/parsers that are needed in your package.json.
+Particularly:
+
+##### Base
+Requires no plugins.
+
+##### React
+  - `babel-eslint`
+  - `eslint-plugin-react`
+
+##### React Native
+  - `babel-eslint`
+  - `eslint-plugin-react`
+  - `eslint-plugin-react-native`
+
 
 ## Running eslint
 
-Add a script like the following to your package.json (-c defines the config location).
+Add a file in the root of your project that extends a particular config.
 
+**.eslintrc**
 ```json
-"scripts": {
-  "eslint": "eslint -c node_modules/eslint-config/.eslintrc 'src/js/'",
+{
+  "extends": "eslint-config-dabapps/react-native/.eslintrc",
 }
 ```
 
@@ -37,6 +56,7 @@ It's recommeneded to then run this in your test script e.g.
 
 ```json
 "scripts": {
+  "eslint": "eslint 'src/js/'",
   "test": "npm run eslint && npm run jest",
 }
 ```

@@ -1,0 +1,20 @@
+{
+  "extends": "../base/.eslintrc",
+  "env": {
+    "es6": true
+  },
+  "ecmaFeatures": {
+    "jsx":true
+  },
+  "parser": "babel-eslint",
+  "plugins": [
+    "react",
+  ],
+  "rules": {
+    "jsx-quotes": [2, "prefer-double"],
+
+    "react/jsx-no-undef": 2,
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 2
+  }
+}
