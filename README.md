@@ -15,7 +15,7 @@ Install a specific version of the eslint-config in your package.json.
 
 ```json
 "devDependencies": {
-  "eslint-config": "git://github.com/dabapps/eslint-config.git#2.0.0",
+  "eslint-config": "dabapps/eslint-config#2.0.0",
 }
 ```
 
@@ -25,17 +25,19 @@ Then you have to choose between the different configs, depending on the project 
   - react
   - react-native
 
-You'll also need to include eslint & any other plugins/parsers that are needed in your package.json.
-Particularly:
+You'll also need to include eslint & any other plugins/parsers that are needed in your package.json. Particularly:
 
 ##### Base
-Requires no plugins.
+
+  - Requires no plugins.
 
 ##### React
+
   - `babel-eslint`
   - `eslint-plugin-react`
 
 ##### React Native
+
   - `babel-eslint`
   - `eslint-plugin-react`
   - `eslint-plugin-react-native`
@@ -43,9 +45,9 @@ Requires no plugins.
 
 ## Running eslint
 
-Add a file in the root of your project that extends a particular config.
+Add an `.eslintrc` file in the root of your project that extends a particular config.
 
-**.eslintrc**
+****
 ```json
 {
   "extends": "eslint-config-dabapps/react-native/.eslintrc",
