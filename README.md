@@ -49,20 +49,15 @@ You'll also need to include eslint & any other plugins/parsers that are needed i
 
 Add an `.eslintrc` file in the root of your project that extends a particular config.
 
-****
-```json
-{
-  "extends": "eslint-config-dabapps/base/.eslintrc", // For Base
-  "extends": "eslint-config-dabapps/react/.eslintrc", // For React
-  "extends": "eslint-config-dabapps/react-native/.eslintrc", // For React-Native
-}
-```
+    {
+      "extends": "eslint-config-dabapps/base/.eslintrc", // For Base
+      "extends": "eslint-config-dabapps/react/.eslintrc", // For React
+      "extends": "eslint-config-dabapps/react-native/.eslintrc", // For React-Native
+    }
 
 It's recommeneded to then run this in your test script e.g.
 
-```json
-"scripts": {
-  "eslint": "eslint 'src/js/'",
-  "test": "npm run eslint && npm run jest",
-}
-```
+    "scripts": {
+      "eslint": "eslint 'src/js/'",
+      "test": "npm run eslint && npm run jest",
+    }
