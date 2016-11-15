@@ -32,11 +32,13 @@ You'll also need to include eslint & any other plugins/parsers that are needed i
   - Requires no plugins.
 
 ##### React
+`npm install --save-dev --save-exact babel-eslint eslint-plugin-react`
 
   - `babel-eslint`
   - `eslint-plugin-react`
 
 ##### React Native
+`npm install --save-dev --save-exact babel-eslint eslint-plugin-react eslint-plugin-react-native`
 
   - `babel-eslint`
   - `eslint-plugin-react`
@@ -50,7 +52,9 @@ Add an `.eslintrc` file in the root of your project that extends a particular co
 ****
 ```json
 {
-  "extends": "eslint-config-dabapps/react-native/.eslintrc",
+  "extends": "eslint-config-dabapps/base/.eslintrc", // For Base
+  "extends": "eslint-config-dabapps/react/.eslintrc", // For React
+  "extends": "eslint-config-dabapps/react-native/.eslintrc", // For React-Native
 }
 ```
 
