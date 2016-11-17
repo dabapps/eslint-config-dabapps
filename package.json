@@ -28,11 +28,11 @@
   },
   "homepage": "https://github.com/dabapps/eslint-config",
   "dependencies": {
-  },
-  "devDependencies": {
     "babel-eslint": "7.1.0",
     "eslint": "=3.10.0",
     "eslint-plugin-react": "=6.6.0",
     "eslint-plugin-react-native": "=2.0.0"
+  },
+  "devDependencies": {
   }
 }
