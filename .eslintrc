@@ -1,6 +1,7 @@
 {
   "extends": [
     "./base/.eslintrc",
+    "./commonjs/.eslintrc"
     "./browser/.eslintrc",
     "./es6/.eslintrc",
     "./react/.eslintrc"
