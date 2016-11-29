@@ -1,9 +1,9 @@
 {
   "extends": [
-    "./base/.eslintrc",
-    "./commonjs/.eslintrc",
-    "./browser/.eslintrc",
-    "./es6/.eslintrc",
-    "./react/.eslintrc"
+    "./base/.eslintrc.json",
+    "./commonjs/.eslintrc.json",
+    "./browser/.eslintrc.json",
+    "./es6/.eslintrc.json",
+    "./react/.eslintrc.json"
   ]
 }
