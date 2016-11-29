@@ -1,8 +1,8 @@
 {
   "extends": "../react/.eslintrc",
   "env": {
-    jasmine: true,
-    jest: true
+    "jasmine": true,
+    "jest": true
   },
   "parser": "babel-eslint",
   "plugins": [
