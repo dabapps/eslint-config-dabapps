@@ -62,7 +62,6 @@ But if you want to customise the project because, for example, this project is u
 ```json
 {
   "extends": [
-    "eslint-config/base",
     "eslint-config/commonjs",
     "eslint-config/browser",
     "eslint-config/es6",
