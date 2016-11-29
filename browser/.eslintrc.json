@@ -2,6 +2,7 @@
   "extends": "../base/.eslintrc.json",
   "globals": {
     "window": false,
+    "performance": false,
     "document": false,
     "navigator": false,
     "location": false,
