@@ -2,7 +2,7 @@
   "name": "eslint-config-dabapps",
   "version": "2.0.3",
   "description": "DabApps ESLint Configuration",
-  "main": "./base/.eslintrc",
+  "main": ".eslintrc",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
