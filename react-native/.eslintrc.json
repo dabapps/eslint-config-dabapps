@@ -1,5 +1,5 @@
 {
-  "extends": "../base/.eslintrc.json",
+  "extends": ["../react/.eslintrc.json", "../base/.eslintrc.json"],
   "plugins": [
     "react-native"
   ],
