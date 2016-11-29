@@ -1,6 +1,6 @@
 {
-  "version": "2.0.3",
   "name": "eslint-config",
+  "version": "3.0.0",
   "description": "DabApps ESLint Configuration",
   "main": ".eslintrc.json",
   "scripts": {
