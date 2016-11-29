@@ -74,7 +74,7 @@ But if you want to customise the project because, for example, this project is u
 
 ### Test config
 
-If your project has tests (if it doesn't you're fired), create a second `.eslintrc-test.json` so you can have custom linting for your tests. A common pattern is to extend our existing `.eslintrc.json` and one of our test configs to allow globals like `describe` and `it` e.g.
+If your project has tests (if it doesn't you're fired), create a second config named `.eslintrc-test.json`. This way you can have custom linting for your tests. A common pattern is to extend our existing `.eslintrc.json` and one of our test configs to allow globals like `describe` and `it` e.g.
 
 ```json
 {
