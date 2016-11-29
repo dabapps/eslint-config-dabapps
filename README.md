@@ -70,6 +70,8 @@ But if you want to customise the project because, for example, this project is u
 }
 ```
 
+There's no need to extend the base config as all other configs extend the base anyway.
+
 
 ### Test config
 
