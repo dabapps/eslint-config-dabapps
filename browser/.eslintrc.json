@@ -1,5 +1,5 @@
 {
-  "extends": "../base/.eslintrc-.json",
+  "extends": "../base/.eslintrc.json",
   "globals": {
     "window": false,
     "document": false,
