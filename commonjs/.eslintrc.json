@@ -4,6 +4,6 @@
     "commonjs": true
   },
   "rules": {
-    "no-duplicate-imports": 2
+    "no-duplicate-imports": [2, { "includeExports": true }]
   }
 }
