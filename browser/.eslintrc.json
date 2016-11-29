@@ -1,0 +1,14 @@
+{
+  "globals": {
+    "window": false,
+    "document": false,
+    "navigator": false,
+    "location": false,
+    "console": false,
+    "setTimeout": false,
+    "clearTimeout": false,
+    "setInterval": false,
+    "clearInterval": false,
+    "alert": false
+  }
+}
