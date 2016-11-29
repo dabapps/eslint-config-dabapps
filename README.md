@@ -57,7 +57,7 @@ Explanation of the default config below
 
 ### Custom config
 
-But if you want to customise the project because, for example, this project is using an different ECMA version, module system, or framework you can use a combination of the other configs available in this module. To replicate the default config for example, you could use the following:
+But if you want to customise the project because, for example, this project is using a different ECMA version, module system, or framework, you can use a combination of the other configs available in this module. To replicate the default config for example, you could use the following:
 
 ```json
 {
