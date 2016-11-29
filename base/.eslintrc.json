@@ -7,7 +7,7 @@
     "quotes": [2, "single"],
     "linebreak-style": 2,
     "semi": [2, "always"],
-    "semi-spacing": [2, {"before": false, "after": true}],
+    "semi-spacing": [2, { "before": false, "after": true }],
     "max-len": [2, 120, 2, { "ignoreComments": true } ],
     "dot-location": [2, "property"],
 
