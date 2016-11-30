@@ -1,0 +1,28 @@
+{
+  "extends": "../base/.eslintrc.json",
+  "plugins": [
+    "react"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "jsx-quotes": [2, "prefer-double"],
+
+    "react/jsx-no-duplicate-props": 2,
+    "react/react-in-jsx-scope": 2,
+    "react/jsx-boolean-value": 2,
+    "react/jsx-no-undef": 2,
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 2,
+    "react/jsx-handler-names": [
+      2,
+      {
+        "eventHandlerPrefix": "on",
+        "eventHandlerPropPrefix": "on"
+      }
+    ]
+  }
+}

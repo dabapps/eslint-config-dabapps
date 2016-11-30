@@ -1,0 +1,9 @@
+{
+  "extends": "../base/.eslintrc.json",
+  "env": {
+    "commonjs": true
+  },
+  "rules": {
+    "no-duplicate-imports": [2, { "includeExports": true }]
+  }
+}

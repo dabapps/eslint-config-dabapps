@@ -1,0 +1,16 @@
+{
+  "extends": "../base/.eslintrc.json",
+  "env": {
+    "es6": true
+  },
+  "ecmaFeatures": {
+    "modules": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 6
+  },
+  "rules": {
+    "no-var": 2
+  }
+}

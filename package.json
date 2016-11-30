@@ -1,10 +1,12 @@
 {
-  "name": "eslint-config-dabapps",
-  "version": "2.0.3",
+  "name": "eslint-config",
+  "version": "3.0.0",
   "description": "DabApps ESLint Configuration",
-  "main": "./base/.eslintrc",
+  "main": ".eslintrc.json",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "jsonlint": "find . -path ./node_modules -prune -o -type f -name '*.json' -exec jsonlint -q '{}' \\;",
+    "eslint": "eslint -c .eslintrc.json test-pass.js",
+    "test": "npm run jsonlint && npm run eslint"
   },
   "repository": {
     "type": "git",
@@ -34,5 +36,6 @@
     "eslint-plugin-react-native": "=2.0.0"
   },
   "devDependencies": {
+    "jsonlint": "=1.6.2"
   }
 }
