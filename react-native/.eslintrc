@@ -11,7 +11,5 @@
   "rules": {
     "react-native/no-unused-styles": 2,
     "react-native/no-inline-styles": 2,
-    "no-console": 2,
-    "no-debugger": 2,
   }
 }
