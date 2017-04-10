@@ -25,7 +25,7 @@ This will update your package.json automatically.
 ## Configuration
 
 
-### NPM scripts
+### NPM Scripts
 
 Add the following scripts to your package.json
 
@@ -38,7 +38,7 @@ Add the following scripts to your package.json
 ```
 
 
-### Default config
+### Default Config
 
 Create an `.eslintrc.json` in the route of the project. For most projects you can use the default config like so:
 
@@ -53,7 +53,7 @@ Create an `.eslintrc.json` in the route of the project. For most projects you ca
 Explanation of the default config below
 
 
-### Custom config
+### Custom Config
 
 But if you want to customise the project because, for example, this project is using a different ECMA version, module system, or framework, you can use a combination of the other configs available in this module. To replicate the default config for example, you could use the following:
 
