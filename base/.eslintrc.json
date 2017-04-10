@@ -26,7 +26,6 @@
     "no-irregular-whitespace": 2,
     "no-multi-spaces": 2,
     "no-multiple-empty-lines": 2,
-    "no-else-return": 0,
     "no-eval": 2,
     "no-multi-str": 2,
     "no-self-compare": 2,
@@ -49,10 +48,11 @@
 
     "radix": 2,
     "curly": 2,
-    "no-fallthrough": 0,
-    "default-case": 0,
-    "no-plusplus": 0,
-    "dot-notation": 0,
-    "eol-last": 2
+    "eol-last": 2,
+    "no-else-return": 2,
+    "no-fallthrough": 2,
+    "default-case": 2,
+    "no-plusplus": 2,
+    "dot-notation": 2
   }
 }
