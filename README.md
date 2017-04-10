@@ -7,7 +7,7 @@ This repository includes a collection of eslint configs that can be combined to 
 
 ## Install
 
-Install a specific version of the eslint-config with NPM. You can see a full list of versions [here](https://github.com/dabapps/eslint-config/releases).
+Install a specific version of the eslint config with NPM. You can see a full list of versions [here](https://github.com/dabapps/eslint-config-dabapps/releases).
 
 ```shell
 npm i dabapps/eslint-config-dabapps#v3.0.0 --save-dev
