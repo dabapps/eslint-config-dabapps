@@ -9,7 +9,11 @@ export default class App extends Component {
     super();
 
     this.state = {
-      index: 0
+      index: 0,
+      arr: [
+        'foo',
+        'bar'
+      ]
     };
 
     $(window)
