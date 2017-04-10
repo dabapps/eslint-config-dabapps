@@ -10,6 +10,7 @@
     "semi-spacing": [2, { "before": false, "after": true }],
     "max-len": [2, 120, 2, { "ignoreComments": true } ],
     "dot-location": [2, "property"],
+    "no-duplicate-imports": [2, { "includeExports": true }],
 
     "eqeqeq": 2,
     "block-scoped-var": 2,
