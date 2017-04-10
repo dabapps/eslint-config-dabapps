@@ -1,44 +1,92 @@
-# DabApps ESLint Configuration
+# ESLint Config
 
 
 ## About
-This repository includes 3 different configs that inherit from each other.
-
-  - Base
-  - React (extends the `base`)
-  - React Native (extends `react`, `base`)
+This repository includes a collection of eslint configs that can be combined to lint just about any project, and a default config for all projects that follow our recent patterns.
 
 
 ## Install
 
-Install a specific version of the eslint-config in your package.json. 
+Install a specific version of the eslint config with NPM. You can see a full list of versions [here](https://github.com/dabapps/eslint-config-dabapps/releases).
+
+```shell
+npm i dabapps/eslint-config-dabapps#v3.0.0 --save-dev
+```
+
+This will update your package.json automatically.
 
 ```json
 "devDependencies": {
-  "eslint-config": "dabapps/eslint-config#2.0.0",
+  "eslint-config-dabapps": "dabapps/eslint-config-dabapps#v3.0.0",
 }
 ```
 
-Then you have to choose between the different configs, depending on the project type. Currently there are 3 different configs.
 
-  - base
-  - react
-  - react-native
+## Configuration
 
 
-## Running eslint
+### NPM Scripts
 
-Add an `.eslintrc` file in the root of your project that extends a particular config.
+Add the following scripts to your package.json
 
-    {
-      "extends": "eslint-config-dabapps/base/.eslintrc", // For Base
-      "extends": "eslint-config-dabapps/react/.eslintrc", // For React
-      "extends": "eslint-config-dabapps/react-native/.eslintrc", // For React-Native
-    }
+```json
+{
+  "scripts": {
+    "lint": "eslint src/ tests/"
+  }
+}
+```
 
-It's recommeneded to then run this in your test script e.g.
 
-    "scripts": {
-      "eslint": "eslint 'src/js/'",
-      "test": "npm run eslint && npm run jest",
-    }
+### Default Config
+
+Create an `.eslintrc.json` in the route of the project. For most projects you can use the default config like so:
+
+```json
+{
+  "extends": [
+    "dabapps"
+  ]
+}
+```
+
+Explanation of the default config below
+
+
+### Custom Config
+
+But if you want to customise the project because, for example, this project is using a different ECMA version, module system, or framework, you can use a combination of the other configs available in this module. To replicate the default config for example, you could use the following:
+
+```json
+{
+  "extends": [
+    "dabapps/commonjs",
+    "dabapps/browser",
+    "dabapps/es6",
+    "dabapps/react"
+  ]
+}
+```
+
+There's no need to extend the base config as all other configs extend the base anyway.
+
+
+#### React Native
+
+Simply extend the base config, and the react-native config.
+
+```
+{
+  "extends": [
+    "dabapps",
+    "dabapps/react-native"
+  ]
+}
+```
+
+
+### Test Config
+
+Although it is possible to run eslint with different configs for tests, we have decided to instead use a single config, and globals defined at the top of files for tests.
+
+This decision was made to avoid errors in our apps when accidentally using test globals, and to prevent people's editors from complaining about undefined globals when multiple configs are present (as it'd only use the main one, and not the tests one).

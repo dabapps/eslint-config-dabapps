@@ -1,21 +1,16 @@
 {
-  "env": {
-    "browser": true,
-    "node": true
-  },
-  "ecmaFeatures": {
-    "modules": true
-  },
-  "rules":{
+  "rules": {
     "strict": [2, "global"],
     "comma-style": 2,
     "comma-spacing": 2,
-    "indent": [2, 2, { "SwitchCase": 1 }],
+    "indent": [2, 2, { "SwitchCase": 1, "outerIIFEBody": 1, "MemberExpression": 1 }],
     "quotes": [2, "single"],
     "linebreak-style": 2,
     "semi": [2, "always"],
+    "semi-spacing": [2, { "before": false, "after": true }],
     "max-len": [2, 120, 2, { "ignoreComments": true } ],
     "dot-location": [2, "property"],
+    "no-duplicate-imports": [2, { "includeExports": true }],
 
     "eqeqeq": 2,
     "block-scoped-var": 2,
@@ -44,6 +39,7 @@
     "no-unreachable": 2,
     "no-unused-vars": 2,
     "no-use-before-define": 2,
+    "no-extra-semi": 2,
 
     "keyword-spacing": 2,
     "space-before-blocks": 2,
