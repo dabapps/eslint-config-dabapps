@@ -1,3 +1,4 @@
+import $ from 'jquery';
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
@@ -10,7 +11,11 @@ export default class App extends Component {
     this.state = {
       index: 0
     };
+
+    $(window)
+      .on('resize', this.doAThing);
   }
+
   onClick(event) {
     event.preventDefault();
 
