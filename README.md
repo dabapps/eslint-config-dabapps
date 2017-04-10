@@ -17,7 +17,7 @@ This will update your package.json automatically.
 
 ```json
 "devDependencies": {
-  "eslint-config": "eslint-config-dabapps#v3.0.0",
+  "eslint-config-dabapps": "dabapps/eslint-config-dabapps#v3.0.0",
 }
 ```
 
