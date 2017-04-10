@@ -71,7 +71,21 @@ But if you want to customise the project because, for example, this project is u
 There's no need to extend the base config as all other configs extend the base anyway.
 
 
-### Test config
+#### React Native
+
+Simply extend the base config, and the react-native config.
+
+```
+{
+  "extends": [
+    "dabapps",
+    "dabapps/react-native"
+  ]
+}
+```
+
+
+### Test Config
 
 Although it is possible to run eslint with different configs for tests, we have decided to instead use a single config, and globals defined at the top of files for tests.
 
