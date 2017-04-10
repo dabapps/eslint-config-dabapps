@@ -73,15 +73,6 @@ There's no need to extend the base config as all other configs extend the base a
 
 ### Test config
 
-If your project has tests (if it doesn't you're fired), create a second config named `.eslintrc-test.json`. This way you can have custom linting for your tests. A common pattern is to extend our existing `.eslintrc.json` and one of our test configs to allow globals like `describe` and `it` e.g.
+Although it is possible to run eslint with different configs for tests, we have decided to instead use a single config, and globals defined at the top of files for tests.
 
-```json
-{
-  "extends": [
-    ".eslintrc.json",
-    "eslint-config/jest"
-  ]
-}
-```
-
-You could also extend from any of the other configs in this module if necessary.
+This decision was made to avoid errors in our apps when accidentally using test globals, and to prevent people's editors from complaining about undefined globals when multiple configs are present (as it'd only use the main one, and not the tests one).
