@@ -1,92 +1,63 @@
-# ESLint Config
-
-
-## About
-This repository includes a collection of eslint configs that can be combined to lint just about any project, and a default config for all projects that follow our recent patterns.
-
-
-## Install
-
-Install a specific version of the eslint config with NPM. You can see a full list of versions [here](https://github.com/dabapps/eslint-config-dabapps/releases).
-
-```shell
-npm i dabapps/eslint-config-dabapps#v3.0.0 --save-dev
-```
-
-This will update your package.json automatically.
-
-```json
-"devDependencies": {
-  "eslint-config-dabapps": "dabapps/eslint-config-dabapps#v3.0.0",
-}
-```
-
-
-## Configuration
-
-
-### NPM Scripts
-
-Add the following scripts to your package.json
-
-```json
-{
-  "scripts": {
-    "lint": "eslint src/ tests/"
-  }
-}
-```
-
-
-### Default Config
-
-Create an `.eslintrc.json` in the route of the project. For most projects you can use the default config like so:
-
-```json
-{
-  "extends": [
-    "dabapps"
-  ]
-}
-```
-
-Explanation of the default config below
-
-
-### Custom Config
-
-But if you want to customise the project because, for example, this project is using a different ECMA version, module system, or framework, you can use a combination of the other configs available in this module. To replicate the default config for example, you could use the following:
-
-```json
-{
-  "extends": [
-    "dabapps/commonjs",
-    "dabapps/browser",
-    "dabapps/es6",
-    "dabapps/react"
-  ]
-}
-```
-
-There's no need to extend the base config as all other configs extend the base anyway.
-
-
-#### React Native
-
-Simply extend the base config, and the react-native config.
+# Changes
 
 ```
-{
-  "extends": [
-    "dabapps",
-    "dabapps/react-native"
-  ]
-}
+I still don't know what I was waiting for
+And my time was running wild
+A million dead-end streets
+And every time I thought I'd got it made
+It seemed the taste was not so sweet
+So I turned myself to face me
+But I've never caught a glimpse
+Of how the others must see the faker
+I'm much too fast to take that test
+
+Ch-ch-ch-ch-changes
+(Turn and face the strange)
+Ch-ch-changes
+Don't want to be a richer man
+Ch-ch-ch-ch-changes
+(Turn and face the strange)
+Ch-ch-changes
+Just gonna have to be a different man
+Time may change me
+But I can't trace time
+
+I watch the ripples change their size
+But never leave the stream
+Of warm impermanence and
+So the days float through my eyes
+But still the days seem the same
+And these children that you spit on
+As they try to change their worlds
+Are immune to your consultations
+They're quite aware of what they're going through
+
+Ch-ch-ch-ch-changes
+(Turn and face the strange)
+Ch-ch-changes
+Don't tell them to grow up and out of it
+Ch-ch-ch-ch-changes
+(Turn and face the strange)
+Ch-ch-changes
+Where's your shame
+You've left us up to our necks in it
+Time may change me
+But you can't trace time
+
+Strange fascination, fascinating me
+Changes are taking the pace
+I'm going through
+
+Ch-ch-ch-ch-Changes
+(Turn and face the strange)
+Ch-ch-changes
+Oh, look out you rock 'n rollers
+Ch-ch-ch-ch-changes
+(Turn and face the strange)
+Ch-ch-changes
+Pretty soon now you're gonna get older
+Time may change me
+But I can't trace time
+I said that time may change me
+But I can't trace time
 ```
-
-
-### Test Config
-
-Although it is possible to run eslint with different configs for tests, we have decided to instead use a single config, and globals defined at the top of files for tests.
-
-This decision was made to avoid errors in our apps when accidentally using test globals, and to prevent people's editors from complaining about undefined globals when multiple configs are present (as it'd only use the main one, and not the tests one).
