@@ -32,9 +32,7 @@ Add the following scripts to your package.json
 ```json
 {
   "scripts": {
-    "lint": "npm run lint-src && npm run lint-tests",
-    "lint-src": "eslint -c .eslintrc.json src/",
-    "lint-tests": "eslint -c .eslintrc-test.json tests/"
+    "lint": "eslint src/ tests/"
   }
 }
 ```
