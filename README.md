@@ -10,14 +10,14 @@ This repository includes a collection of eslint configs that can be combined to 
 Install a specific version of the eslint-config with NPM. You can see a full list of versions [here](https://github.com/dabapps/eslint-config/releases).
 
 ```shell
-npm i dabapps/eslint-config#v3.0.0 --save-dev
+npm i dabapps/eslint-config-dabapps#v3.0.0 --save-dev
 ```
 
 This will update your package.json automatically.
 
 ```json
 "devDependencies": {
-  "eslint-config": "eslint-config#v3.0.0",
+  "eslint-config": "eslint-config-dabapps#v3.0.0",
 }
 ```
 
