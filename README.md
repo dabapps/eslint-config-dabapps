@@ -62,10 +62,10 @@ But if you want to customise the project because, for example, this project is u
 ```json
 {
   "extends": [
-    "eslint-config/commonjs",
-    "eslint-config/browser",
-    "eslint-config/es6",
-    "eslint-config/react"
+    "dabapps/commonjs",
+    "dabapps/browser",
+    "dabapps/es6",
+    "dabapps/react"
   ]
 }
 ```
