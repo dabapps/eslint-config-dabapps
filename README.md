@@ -87,6 +87,15 @@ Simply extend the base config, and the react-native config.
 
 ### Test Config
 
-Although it is possible to run eslint with different configs for tests, we have decided to instead use a single config, and globals defined at the top of files for tests.
+You can add additional eslint configs within your tests directory to add the relevant globals for your test suite e.g.
 
-This decision was made to avoid errors in our apps when accidentally using test globals, and to prevent people's editors from complaining about undefined globals when multiple configs are present (as it'd only use the main one, and not the tests one).
+```
+{
+  "extends": [
+    "dabapps/jest"
+  ]
+}
+```
+
+Note: do not add these to the main eslint config in the project route.
+
