@@ -3,7 +3,8 @@
     "prettier"
   ],
   "plugins": [
-    "prettier"
+    "prettier",
+    "import"
   ],
   "rules": {
     "strict": [2, "global"],
@@ -59,6 +60,31 @@
     "default-case": 0,
     "no-plusplus": 0,
     "dot-notation": 0,
-    "eol-last": 2
+    "eol-last": 2,
+
+    "import/no-unresolved": [
+      2,
+      {
+        "commonjs": true,
+        "amd": true
+      }
+    ],
+    "import/named": 2,
+    "import/default": 2,
+    "import/no-self-import": 2,
+    "import/no-cycle": 2,
+    "import/export": 2,
+    "import/no-mutable-exports": 2,
+    "import/extensions": [
+      2,
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never",
+        "json": "always"
+      }
+    ],
+    "import/prefer-default-export": 2
   }
 }
