@@ -99,3 +99,14 @@ You can add additional eslint configs within your tests directory to add the rel
 
 Note: do not add these to the main eslint config in the project route.
 
+### Import resolvers
+
+If your project uses a custom module resolver (e.g. aliasing `^` to the project root), you will need to define a rule for the import plugin, to tell it how to resolve modules.
+
+See https://github.com/benmosher/eslint-plugin-import#resolvers
+
+```
+{
+  "import/resolver": "./my-resolver"
+}
+```
