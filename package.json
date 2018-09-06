@@ -29,13 +29,19 @@
     "url": "https://github.com/dabapps/eslint-config-dabapps/issues"
   },
   "homepage": "https://github.com/dabapps/eslint-config-dabapps",
-  "dependencies": {},
+  "dependencies": {
+    "eslint": ">= 3.12 < 4",
+    "prettier": ">= 1 < 2",
+    "eslint-config-prettier": ">= 2 < 3",
+    "eslint-plugin-prettier": ">= 2 < 3"
+  },
   "devDependencies": {
     "jsonlint": "^1.6.2"
   },
   "peerDependencies": {
     "eslint": ">= 3.12 < 4",
     "prettier": ">= 1 < 2",
+    "eslint-config-prettier": ">= 2 < 3",
     "eslint-plugin-prettier": ">= 2 < 3"
   },
   "optionalDependencies": {
