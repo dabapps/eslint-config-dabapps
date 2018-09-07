@@ -1,5 +1,8 @@
 {
-  "extends": "../base/.eslintrc.json",
+  "extends": [
+    "../base/.eslintrc.json",
+    "plugin:prettier/recommended"
+  ],
   "env": {
     "jasmine": true,
     "jest": true

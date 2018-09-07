@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dabapps",
-  "version": "3.2.1",
+  "version": "4.0.0",
   "description": "DabApps ESLint Configuration",
   "main": ".eslintrc.json",
   "scripts": {
@@ -30,17 +30,23 @@
   },
   "homepage": "https://github.com/dabapps/eslint-config-dabapps",
   "dependencies": {
-    "babel-eslint": "7.1.0",
-    "eslint-config-prettier": "2.9.0",
-    "eslint-plugin-prettier": "=2.6.0",
-    "eslint-plugin-react": "=6.7.1",
-    "eslint-plugin-react-native": "=2.0.0"
+    "eslint": ">= 3.12 < 4",
+    "prettier": ">= 1 < 2",
+    "eslint-config-prettier": ">= 2 < 3",
+    "eslint-plugin-prettier": ">= 2 < 3"
   },
   "devDependencies": {
-    "eslint": "=3.19.0",
-    "jsonlint": "=1.6.2"
+    "jsonlint": "^1.6.2"
   },
   "peerDependencies": {
-    "eslint": ">=3.12.x <4.x.x"
+    "eslint": ">= 3.12 < 4",
+    "prettier": ">= 1 < 2",
+    "eslint-config-prettier": ">= 2 < 3",
+    "eslint-plugin-prettier": ">= 2 < 3"
+  },
+  "optionalDependencies": {
+    "babel-eslint": ">= 7 < 8",
+    "eslint-plugin-react": ">= 6 < 7",
+    "eslint-plugin-react-native": ">= 2 < 3"
   }
 }
