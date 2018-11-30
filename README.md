@@ -90,3 +90,7 @@ Simply extend the base config, and the react-native config.
 Although it is possible to run eslint with different configs for tests, we have decided to instead use a single config, and globals defined at the top of files for tests.
 
 This decision was made to avoid errors in our apps when accidentally using test globals, and to prevent people's editors from complaining about undefined globals when multiple configs are present (as it'd only use the main one, and not the tests one).
+
+## Code of conduct
+
+For guidelines regarding the code of conduct when contributing to this repository please review [https://www.dabapps.com/open-source/code-of-conduct/](https://www.dabapps.com/open-source/code-of-conduct/)
