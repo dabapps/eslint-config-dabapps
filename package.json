@@ -36,7 +36,8 @@
     "prettier": "^1.19.1"
   },
   "devDependencies": {
-    "jsonlint": "^1.6.3"
+    "jsonlint": "^1.6.3",
+    "react": "*"
   },
   "peerDependencies": {
     "eslint": "^6.8.0",
