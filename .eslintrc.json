@@ -1,8 +1,24 @@
 {
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint",
+    "react-hooks",
+    "jest"
+  ],
   "extends": [
     "./commonjs/.eslintrc.json",
     "./browser/.eslintrc.json",
     "./es6/.eslintrc.json",
-    "./react/.eslintrc.json"
-  ]
+    "./react/.eslintrc.json",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
+    "plugin:jest/recommended"
+  ],
+  "rules": {
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  }
 }
