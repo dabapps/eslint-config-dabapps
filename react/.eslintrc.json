@@ -1,7 +1,9 @@
 {
   "extends": [
     "../base/.eslintrc.json",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "plugin:react/recommended",
+    "prettier/react"
   ],
   "plugins": [
     "react"
@@ -45,6 +47,9 @@
     "react/prop-types": 2,
     "react/require-render-return": 2,
     "react/self-closing-comp": 2,
-    "react/sort-comp": 2
+    "react/sort-comp": 2,
+
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
   }
 }
