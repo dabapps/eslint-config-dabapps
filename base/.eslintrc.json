@@ -70,18 +70,36 @@
     "import/default": 2,
     "import/no-self-import": 2,
     "import/no-cycle": 2,
+    "import/no-useless-path-segments": ["error", {
+      "noUselessIndex": true
+    }],
+    "import/no-unused-modules": [2, {
+      "unusedExports": true
+    }],
     "import/export": 2,
+    "import/no-named-as-default": 2,
+    "import/no-deprecated": 1,
+    "import/no-extraneous-dependencies": 2,
     "import/no-mutable-exports": 2,
+    "import/no-duplicates": 2,
+    "import/no-namespace": 1,
     "import/extensions": [
-      2,
-      {
+      "error", "always", {
         "js": "never",
         "jsx": "never",
         "ts": "never",
-        "tsx": "never",
-        "json": "always"
+        "tsx": "never"
       }
     ],
-    "import/prefer-default-export": 2
+    "import/prefer-default-export": 2,
+    "import/no-anonymous-default-export": ["error", {
+      "allowArray": false,
+      "allowArrowFunction": false,
+      "allowAnonymousClass": false,
+      "allowAnonymousFunction": false,
+      "allowCallExpression": true,
+      "allowLiteral": false,
+      "allowObject": false
+    }]
   }
 }
