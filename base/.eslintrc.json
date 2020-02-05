@@ -1,9 +1,7 @@
 {
-  "plugins": [
-    "import"
-  ],
   "extends": [
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "plugin:import/recommended"
   ],
   "rules": {
     "strict": [2, "global"],
@@ -68,8 +66,6 @@
         "amd": true
       }
     ],
-    "import/named": 2,
-    "import/default": 2,
     "import/no-self-import": 2,
     "import/no-cycle": 2,
     "import/no-useless-path-segments": ["error", {
@@ -78,13 +74,11 @@
     "import/no-unused-modules": [2, {
       "unusedExports": true
     }],
-    "import/export": 2,
     "import/no-named-as-default": 2,
     "import/no-deprecated": 1,
     "import/no-extraneous-dependencies": 2,
     "import/no-mutable-exports": 2,
     "import/no-duplicates": 2,
-    "import/no-namespace": 1,
     "import/extensions": [ "error", "always", {
         "js": "never",
         "jsx": "never",
