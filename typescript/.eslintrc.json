@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "../base/.eslintrc.json",
+    "prettier/@typescript-eslint",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "rules": {}
+}
