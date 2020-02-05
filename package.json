@@ -19,12 +19,14 @@
     "react-native",
     "es6",
     "javascript",
+    "typescript",
     "config",
     "configuration",
     "dabapps"
   ],
   "author": "DabApps",
   "license": "BSD",
+  "private": true,
   "bugs": {
     "url": "https://github.com/dabapps/eslint-config-dabapps/issues"
   },
