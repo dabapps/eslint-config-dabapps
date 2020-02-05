@@ -1,7 +1,9 @@
 {
-  "extends": [
-    "plugin:prettier/recommended",
+  "plugins": [
     "import"
+  ],
+  "extends": [
+    "plugin:prettier/recommended"
   ],
   "rules": {
     "strict": [2, "global"],
@@ -83,8 +85,7 @@
     "import/no-mutable-exports": 2,
     "import/no-duplicates": 2,
     "import/no-namespace": 1,
-    "import/extensions": [
-      "error", "always", {
+    "import/extensions": [ "error", "always", {
         "js": "never",
         "jsx": "never",
         "ts": "never",
