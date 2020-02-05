@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dabapps",
-  "version": "3.3.0",
+  "version": "5.0.0",
   "description": "DabApps ESLint Configuration",
   "main": ".eslintrc.json",
   "scripts": {
@@ -30,23 +30,25 @@
   },
   "homepage": "https://github.com/dabapps/eslint-config-dabapps",
   "dependencies": {
-    "babel-eslint": "7.1.0",
-    "eslint-config-prettier": "2.9.0",
-    "eslint-plugin-import": "2.11.0",
-    "eslint-plugin-prettier": "2.6.0",
-    "eslint-plugin-react": "6.7.1",
-    "eslint-plugin-react-native": "2.0.0"
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
   },
   "devDependencies": {
-    "eslint": "3.19.0",
-    "jquery": "3.3.1",
-    "jsonlint": "1.6.2",
-    "prettier": "1.12.1",
-    "react": "16.3.2",
-    "react-dom": "16.3.2"
+    "jsonlint": "^1.6.3",
+    "react": "^16.12.0"
   },
   "peerDependencies": {
-    "eslint": ">=3.12.x <4.x.x",
-    "prettier": ">= 0.11.x"
+    "eslint": "^6.8.0",
+    "prettier": "1.19.1",
+    "eslint-config-prettier": "6.9.0",
+    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-import": "^2.20.1"
+  },
+  "optionalDependencies": {
+    "babel-eslint": "10.0.3",
+    "eslint-plugin-react": "7.17.0",
+    "eslint-plugin-react-native": "3.8.1"
   }
 }

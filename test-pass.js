@@ -13,21 +13,17 @@ export default class App extends Component {
 
     this.state = {
       index: 0,
-      arr: [
-        'foo',
-        'bar'
-      ]
+      arr: ['foo', 'bar'],
     };
 
-    $(window)
-      .on('resize', this.doAThing);
+    $(window).on('resize', this.doAThing);
   }
 
   onClick(event) {
     event.preventDefault();
 
     this.setState({
-      index: 1
+      index: 1,
     });
   }
 

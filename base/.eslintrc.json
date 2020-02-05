@@ -1,9 +1,6 @@
 {
   "extends": [
-    "prettier"
-  ],
-  "plugins": [
-    "prettier",
+    "plugin:prettier/recommended",
     "import"
   ],
   "rules": {
