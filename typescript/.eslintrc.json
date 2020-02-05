@@ -10,6 +10,16 @@
     "@typescript-eslint"
   ],
   "rules": {
-
+    "@typescript-eslint/no-explicit-any": [true, { "ignoreRestArgs": false }],
+    "@typescript-eslint/explicit-function-return-type": false
+  },
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "pretty": true,
+    "jsx": "react",
+    "target": "es5"
   }
 }
