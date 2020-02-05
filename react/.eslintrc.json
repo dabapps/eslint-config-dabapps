@@ -6,7 +6,8 @@
     "prettier/react"
   ],
   "plugins": [
-    "react"
+    "react",
+    "react-hooks"
   ],
   "settings": {
     "react": {
