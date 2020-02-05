@@ -2,7 +2,8 @@
   "extends": [
     "../base/.eslintrc.json",
     "../react/.eslintrc.json",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "plugin:import/react-native"
   ],
   "plugins": [
     "react-native"
