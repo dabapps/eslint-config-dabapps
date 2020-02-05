@@ -4,7 +4,8 @@
   "plugins": [
     "@typescript-eslint",
     "react-hooks",
-    "jest"
+    "jest",
+    "prettier"
   ],
   "extends": [
     "./commonjs/.eslintrc.json",
@@ -12,13 +13,27 @@
     "./es6/.eslintrc.json",
     "./react/.eslintrc.json",
     "eslint:recommended",
+    "eslint-config-prettier",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier/@typescript-eslint",
+    "plugin:prettier/recommended",
+    "plugin:react/recommended",
+    "prettier",
+    "prettier/flowtype",
+    "prettier/react",
+    "prettier/standard",
     "plugin:jest/recommended"
   ],
   "rules": {
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "react-hooks/exhaustive-deps": "warn",
+    "prettier/prettier": "error"
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
   }
 }
