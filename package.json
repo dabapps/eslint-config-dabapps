@@ -24,7 +24,7 @@
     "dabapps"
   ],
   "author": "DabApps",
-  "license": "BSD-3-Clause",
+  "license": "BSD",
   "bugs": {
     "url": "https://github.com/dabapps/eslint-config-dabapps/issues"
   },

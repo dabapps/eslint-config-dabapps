@@ -87,10 +87,22 @@ Simply extend the base config, and the react-native config.
 
 ### Test Config
 
-You can add additional eslint configs within your tests directory to add the relevant globals for your test suite e.g.
+Although it is possible to run eslint with different configs for tests, we have decided to instead use a single config, and globals defined at the top of files for tests.
 
 This decision was made to avoid errors in our apps when accidentally using test globals, and to prevent people's editors from complaining about undefined globals when multiple configs are present (as it'd only use the main one, and not the tests one).
 
 ## Code of conduct
 
 For guidelines regarding the code of conduct when contributing to this repository please review [https://www.dabapps.com/open-source/code-of-conduct/](https://www.dabapps.com/open-source/code-of-conduct/)
+
+### Import resolvers
+
+If your project uses a custom module resolver (e.g. aliasing `^` to the project root), you will need to define a rule for the import plugin, to tell it how to resolve modules.
+
+See https://github.com/benmosher/eslint-plugin-import#resolvers
+
+```
+{
+  "import/resolver": "./my-resolver"
+}
+```
