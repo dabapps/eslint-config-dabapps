@@ -7,8 +7,7 @@
     "plugin:prettier/recommended",
     "eslint:recommended",
     "prettier",
-    "prettier/standard",
-    "prettier/flowtype"
+    "prettier/standard"
   ],
   "rules": {
     "prettier/prettier": "error",
