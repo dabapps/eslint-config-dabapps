@@ -69,21 +69,16 @@
     "eol-last": 2,
 
     "max-lines": [2, { "max": 120 }],
-    "comma-dangle": [2, {
+    "comma-dangle": ["error", {
       "multiline": {
         "arrays": "always",
         "objects": "always",
         "functions": "never",
         "imports": "always",
         "exports": "always"
-      },
-      "singleline": {
-        "arrays": "never",
-        "objects": "never",
-        "functions": "never",
-        "imports": "never",
-        "exports": "never"
       }
-    }]
+    }],
+    "no-var": 2,
+    "no-new": 2
   }
 }
