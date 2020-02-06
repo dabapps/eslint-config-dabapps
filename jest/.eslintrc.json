@@ -1,7 +1,6 @@
 {
   "extends": [
     "../base/.eslintrc.json",
-    "jest",
     "plugin:prettier/recommended",
     "plugin:jest/recommended"
   ],
