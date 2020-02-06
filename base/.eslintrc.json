@@ -3,6 +3,9 @@
     "plugin:prettier/recommended",
     "plugin:import/recommended"
   ],
+  "settings": {
+    "import/resolver": "webpack"
+  },
   "rules": {
     "strict": [2, "global"],
     "comma-style": 2,
