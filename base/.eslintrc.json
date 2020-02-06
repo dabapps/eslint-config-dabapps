@@ -66,6 +66,8 @@
     "default-case": 0,
     "no-plusplus": 0,
     "dot-notation": 0,
-    "eol-last": 2
+    "eol-last": 2,
+
+    "max-lines": [2, { "max": 2 }]
   }
 }
