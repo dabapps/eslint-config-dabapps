@@ -94,3 +94,116 @@ This decision was made to avoid errors in our apps when accidentally using test 
 ## Code of conduct
 
 For guidelines regarding the code of conduct when contributing to this repository please review [https://www.dabapps.com/open-source/code-of-conduct/](https://www.dabapps.com/open-source/code-of-conduct/)
+
+
+------------- TSLINT RULES from tslint-dabapps-config -------------
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-eslint-rules",
+    "tslint-react"
+  ],
+  "rules": {
+    "variable-name": [ ---------------- Use ESLINT RULES
+      true,
+      "check-format", ----------------- Done
+      "allow-leading-underscore", ----- Default
+      "allow-pascal-case" ------------- Default
+    ],
+    "ordered-imports": [
+      true,
+      {
+        "grouped-imports": true,
+        "groups": [
+          {
+            "name": "node modules",
+            "match": "^[@a-zA-Z]",
+            "order": 0
+          },
+          {
+            "name": "local modules",
+            "match": "^[^@a-zA-Z]",
+            "order": 1
+          },
+          {
+            "name": "unknown",
+            "match": null,
+            "order": 2
+          }
+        ]
+      }
+    ],
+    "quotemark": [true, "single", "jsx-double", "avoid-template"],
+    "linebreak-style": [true, "LF"],
+    "semicolon": [true, "always", "ignore-interfaces"],
+    "max-line-length": [true, 120],
+    "indent": [true, "spaces"],
+    "align": [
+      true,
+      "arguments",
+      "elements",
+      "members",
+      "parameters",
+      "statements"
+    ],
+    "trailing-comma": [
+      true,
+      {
+        "multiline": {
+          "arrays": "always",
+          "objects": "always",
+          "functions": "never",
+          "imports": "always",
+          "exports": "always",
+          "typeLiterals": "always"
+        },
+        "singleline": {
+          "arrays": "never",
+          "objects": "never",
+          "functions": "never",
+          "imports": "never",
+          "exports": "never",
+          "typeLiterals": "never"
+        },
+        "esSpecCompliant": true
+      }
+    ],
+    "space-before-function-paren": [true, "always"],
+    "strict-type-predicates": true,
+
+    "object-literal-sort-keys": false,
+    "interface-name": false,
+
+    "triple-equals": true,
+    "no-constant-condition": true,
+    "no-console": true,
+    "no-debugger": true,
+    "no-extra-boolean-cast": true,
+    "no-irregular-whitespace": true,
+    "no-multi-spaces": true,
+    "no-consecutive-blank-lines": true,
+    "no-eval": true,
+    "no-shadowed-variable": true,
+    "no-trailing-whitespace": true,
+    "no-extra-semi": true,
+
+    "radix": true,
+    "curly": true,
+    "no-switch-case-fall-through": true,
+    "switch-default": true,
+    "eofline": true,
+
+    "no-var-keyword": true,
+    "no-unused-expression": true,
+
+    "jsx-alignment": true,
+    "jsx-boolean-value": [true, "never"],
+    "jsx-equals-spacing": [true, "never"],
+    "jsx-key": true,
+    "jsx-no-bind": true,
+    "jsx-no-lambda": true,
+    "jsx-no-multiline-js": true,
+    "jsx-no-string-ref": true,
+    "jsx-self-close": true,
+    "jsx-wrap-multiline": true
+  }

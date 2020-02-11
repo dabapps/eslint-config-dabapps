@@ -76,6 +76,12 @@
       "functions": "never"
     }],
     "no-var": 2,
-    "no-new": 2
+    "no-new": 2,
+    "camelcase": ["error",
+      {
+        "properties": "always",
+        "allow": ["^UNSAFE_"]
+      }
+    ]
   }
 }
