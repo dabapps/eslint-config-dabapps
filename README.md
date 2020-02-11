@@ -138,7 +138,7 @@ For guidelines regarding the code of conduct when contributing to this repositor
     "semicolon": [true, "always", "ignore-interfaces"], ------------------ DONE, semi, @typescript-eslint/semi (for "ignore-interfaces"), updated existing
     "max-line-length": [true, 120], -------------------------------------- DONE, max-len
     "indent": [true, "spaces"], ------------------------------------------ DONE, Use existing eslint rules
-    "align": [
+    "align": [ ----------------------------------------------------------- NO Equivalent yet
       true,
       "arguments",
       "elements",
@@ -149,7 +149,7 @@ For guidelines regarding the code of conduct when contributing to this repositor
     "trailing-comma": [
       true,
       {
-        "multiline": {
+        "multiline": { --------------------------------------------------- Done, comma-dangle + combine eslint
           "arrays": "always",
           "objects": "always",
           "functions": "never",

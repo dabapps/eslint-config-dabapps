@@ -77,8 +77,8 @@
     "dot-notation": 0,
     "eol-last": 2,
 
-    "max-lines": [2, { "max": 120 }],
-    "comma-dangle": [2, {
+    "max-lines": ["error", { "max": 120 }],
+    "comma-dangle": ["error", "always-multiline", {
       "arrays": "never",
       "objects": "always",
       "imports": "never",

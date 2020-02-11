@@ -12,6 +12,7 @@ export interface Props {
 export interface StateProps {
   index: number;
   arr: Array<string>;
+  obj: Record<string, any>;
 }
 
 export default class App extends React.PureComponent<Props, StateProps> {
@@ -21,6 +22,7 @@ export default class App extends React.PureComponent<Props, StateProps> {
     this.state = {
       index: 0,
       arr: ['foo', 'bar'],
+      obj: { one: 1, two: 2, three: 3, four: 4, five: 5, six: 6, seven: 7 },
     };
 
     $(window).on('resize', this.doAThing);

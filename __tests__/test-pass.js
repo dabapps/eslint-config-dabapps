@@ -13,7 +13,18 @@ export default class App extends Component {
 
     this.state = {
       index: 0,
-      arr: ['foo', 'bar'],
+      arr: [
+        'foo',
+        'bar',
+        'foo',
+        'bar',
+        'foo',
+        'bar',
+        'foo',
+        'bar',
+        'foo',
+        'bar',
+      ],
     };
 
     $(window).on('resize', this.doAThing);
