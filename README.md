@@ -168,8 +168,8 @@ For guidelines regarding the code of conduct when contributing to this repositor
         "esSpecCompliant": true
       }
     ],
-    "space-before-function-paren": [true, "always"],
-    "strict-type-predicates": true,
+    "space-before-function-paren": [true, "always"], ------------------- Done
+    "strict-type-predicates": true, ------------------------------------ NO Equivalent yet
 
     "object-literal-sort-keys": false,
     "interface-name": false,

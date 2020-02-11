@@ -65,7 +65,7 @@
 
     "keyword-spacing": 2,
     "space-before-blocks": 2,
-    "space-before-function-paren": 0,
+    "space-before-function-paren": "off",
     "space-infix-ops": 2,
     "space-unary-ops": 2,
 
