@@ -133,7 +133,7 @@ For guidelines regarding the code of conduct when contributing to this repositor
         ]
       }
     ],
-    "quotemark": [true, "single", "jsx-double", "avoid-template"],
+    "quotemark": [true, "single", "jsx-double", "avoid-template"], ------- Done updated existing
     "linebreak-style": [true, "LF"],
     "semicolon": [true, "always", "ignore-interfaces"],
     "max-line-length": [true, 120],

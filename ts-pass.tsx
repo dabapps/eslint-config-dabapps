@@ -27,7 +27,7 @@ export default class App extends React.PureComponent<Props, StateProps> {
   }
 
   public doAThing() {
-    throw new Error("Method not implemented.");
+    throw new Error('Method not implemented.');
   }
 
   private onClick(event) {

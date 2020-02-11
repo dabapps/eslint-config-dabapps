@@ -3,6 +3,9 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
 const CONSTANT = 'CONSTANT';
+const backtick = 'back\ntick';
+const backtickVar = `back${backtick}tick`;
+const template = 'template';
 
 export default class App extends Component {
   constructor() {
@@ -27,7 +30,7 @@ export default class App extends Component {
   render() {
     return (
       <p title={CONSTANT} onClick={this.onClick.bind(this)}>
-        Hello, World!
+        Hello, World! {backtickVar}
       </p>
     );
   }
