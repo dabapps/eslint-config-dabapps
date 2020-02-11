@@ -34,7 +34,7 @@
     "dot-location": [2, "property"],
     "no-duplicate-imports": [2, { "includeExports": true }],
 
-    "eqeqeq": 2,
+    "eqeqeq": "error",
     "block-scoped-var": 2,
     "no-constant-condition": 2,
     "no-console": 2,

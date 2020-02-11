@@ -174,7 +174,7 @@ For guidelines regarding the code of conduct when contributing to this repositor
     "object-literal-sort-keys": ---------------------------------------- Done, false, sort-keys
     "interface-name": false,
 
-    "triple-equals": true,
+    "triple-equals": true, --------------------------------------------- Done, same as Eslint
     "no-constant-condition": true,
     "no-console": true,
     "no-debugger": true,
