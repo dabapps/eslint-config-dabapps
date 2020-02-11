@@ -104,11 +104,11 @@ For guidelines regarding the code of conduct when contributing to this repositor
     "tslint-react"
   ],
   "rules": {
-    "variable-name": [ ---------------- camelcase, Use ESLINT RULES
+    "variable-name": [ ---------------- DONE, camelcase
       true,
-      "check-format", ----------------- Done
-      "allow-leading-underscore", ----- Done Default
-      "allow-pascal-case" ------------- Done Default
+      "check-format", ----------------- DONE, "always"
+      "allow-leading-underscore", ----- DONE Default
+      "allow-pascal-case" ------------- DONE Default
     ],
     "ordered-imports": [
       true,
@@ -133,9 +133,9 @@ For guidelines regarding the code of conduct when contributing to this repositor
         ]
       }
     ],
-    "quotemark": [true, "single", "jsx-double", "avoid-template"], ------- quotes, Done updated existing
-    "linebreak-style": [true, "LF"], ------------------------------------- Done updated existing
-    "semicolon": [true, "always", "ignore-interfaces"], ------------------ semi, @typescript-eslint/semi (for "ignore-interfaces") Done updated existing
+    "quotemark": [true, "single", "jsx-double", "avoid-template"], ------- DONE, quotes, updated existing
+    "linebreak-style": [true, "LF"], ------------------------------------- DONE updated existing
+    "semicolon": [true, "always", "ignore-interfaces"], ------------------ DONE, semi, @typescript-eslint/semi (for "ignore-interfaces"), updated existing
     "max-line-length": [true, 120],
     "indent": [true, "spaces"],
     "align": [
