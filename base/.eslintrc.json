@@ -18,7 +18,7 @@
     "indent": [2, 2, { "SwitchCase": 1, "outerIIFEBody": 1, "MemberExpression": 1, "ArrayExpression": 1, "ObjectExpression": 1 }],
     "quotes": ["error", "single", { "allowTemplateLiterals": false }],
     "linebreak-style": ["error", "unix"],
-    "semi": [2, "always"],
+    "semi": ["error", "always"],
     "semi-spacing": [2, { "before": false, "after": true }],
     "max-len": [2, 120, 2, { "ignoreComments": true } ],
     "dot-location": [2, "property"],
