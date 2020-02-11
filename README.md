@@ -171,7 +171,7 @@ For guidelines regarding the code of conduct when contributing to this repositor
     "space-before-function-paren": [true, "always"], ------------------- Done, use Eslint
     "strict-type-predicates": true, ------------------------------------ NO Equivalent yet
 
-    "object-literal-sort-keys": false,
+    "object-literal-sort-keys": ---------------------------------------- Done, false, sort-keys
     "interface-name": false,
 
     "triple-equals": true,

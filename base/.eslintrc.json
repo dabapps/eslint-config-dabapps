@@ -92,6 +92,7 @@
         "properties": "always",
         "allow": ["^UNSAFE_"]
       }
-    ]
+    ],
+    "sort-keys": "off"
   }
 }
