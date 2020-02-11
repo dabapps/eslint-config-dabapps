@@ -26,6 +26,10 @@ export default class App extends React.PureComponent<Props, StateProps> {
     $(window).on('resize', this.doAThing);
   }
 
+  public doAThing() {
+    throw new Error("Method not implemented.");
+  }
+
   private onClick(event) {
     event.preventDefault();
 
@@ -36,7 +40,7 @@ export default class App extends React.PureComponent<Props, StateProps> {
 
   public render() {
     return (
-      <p title={PascalCaseTitle} onClick={this.onClick.bind(this)}>
+      <p title={PascalCaseTitle} onClick={this.onClick}>
         {this.props.greating}
       </p>
     );
