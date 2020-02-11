@@ -168,7 +168,7 @@ For guidelines regarding the code of conduct when contributing to this repositor
         "esSpecCompliant": true
       }
     ],
-    "space-before-function-paren": [true, "always"], ------------------- Done
+    "space-before-function-paren": [true, "always"], ------------------- Done, use Eslint
     "strict-type-predicates": true, ------------------------------------ NO Equivalent yet
 
     "object-literal-sort-keys": false,
