@@ -178,23 +178,23 @@ For guidelines regarding the code of conduct when contributing to this repositor
     "no-constant-condition": true, ------------------------------------- Done, same as Eslint
     "no-console": true, ------------------------------------------------ Done, same as Eslint
     "no-debugger": true, ----------------------------------------------- Done, same as Eslint
-    "no-extra-boolean-cast": true,
-    "no-irregular-whitespace": true,
-    "no-multi-spaces": true,
-    "no-consecutive-blank-lines": true,
-    "no-eval": true,
-    "no-shadowed-variable": true,
-    "no-trailing-whitespace": true,
-    "no-extra-semi": true,
+    "no-extra-boolean-cast": true, ------------------------------------- Done, same as Eslint
+    "no-irregular-whitespace": true, ----------------------------------- Done, same as Eslint
+    "no-multi-spaces": true, ------------------------------------------- Done, same as Eslint
+    "no-consecutive-blank-lines": true, -------------------------------- Done, same as eslint, no-multiple-empty-lines
+    "no-eval": true, --------------------------------------------------- Done, same as eslint
+    "no-shadowed-variable": true, -------------------------------------- Done, same as eslint, no-shadow
+    "no-trailing-whitespace": true, ------------------------------------ Done, same as eslint, no-trailing-spaces
+    "no-extra-semi": true, --------------------------------------------- Done, same as eslint
 
-    "radix": true,
-    "curly": true,
-    "no-switch-case-fall-through": true,
-    "switch-default": true,
-    "eofline": true,
+    "radix": true, ----------------------------------------------------- Done, same as eslint
+    "curly": true, ----------------------------------------------------- Done, same as eslint
+    "no-switch-case-fall-through": true, ------------------------------- Done, same as eslint, no-fallthrough
+    "switch-default": true, -------------------------------------------- Done, same as eslint, default-case
+    "eofline": true, --------------------------------------------------- Done, same as eslint, eol-last
 
-    "no-var-keyword": true,
-    "no-unused-expression": true,
+    "no-var-keyword": true,--------------------------------------------- Done, same as eslint, no-var
+    "no-unused-expression": true, -------------------------------------- Done, no-unused-expressions
 
     "jsx-alignment": true,
     "jsx-boolean-value": [true, "never"],
