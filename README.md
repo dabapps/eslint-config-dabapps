@@ -176,8 +176,8 @@ For guidelines regarding the code of conduct when contributing to this repositor
 
     "triple-equals": true, --------------------------------------------- Done, same as Eslint
     "no-constant-condition": true, ------------------------------------- Done, same as Eslint
-    "no-console": true,
-    "no-debugger": true,
+    "no-console": true, ------------------------------------------------ Done, same as Eslint
+    "no-debugger": true, ----------------------------------------------- Done, same as Eslint
     "no-extra-boolean-cast": true,
     "no-irregular-whitespace": true,
     "no-multi-spaces": true,
