@@ -136,8 +136,8 @@ For guidelines regarding the code of conduct when contributing to this repositor
     "quotemark": [true, "single", "jsx-double", "avoid-template"], ------- DONE, quotes, updated existing
     "linebreak-style": [true, "LF"], ------------------------------------- DONE updated existing
     "semicolon": [true, "always", "ignore-interfaces"], ------------------ DONE, semi, @typescript-eslint/semi (for "ignore-interfaces"), updated existing
-    "max-line-length": [true, 120],
-    "indent": [true, "spaces"],
+    "max-line-length": [true, 120], -------------------------------------- DONE, max-len
+    "indent": [true, "spaces"], ------------------------------------------ DONE, Use existing eslint rules
     "align": [
       true,
       "arguments",
