@@ -107,8 +107,8 @@ For guidelines regarding the code of conduct when contributing to this repositor
     "variable-name": [ ---------------- Use ESLINT RULES
       true,
       "check-format", ----------------- Done
-      "allow-leading-underscore", ----- Default
-      "allow-pascal-case" ------------- Default
+      "allow-leading-underscore", ----- Done Default
+      "allow-pascal-case" ------------- Done Default
     ],
     "ordered-imports": [
       true,

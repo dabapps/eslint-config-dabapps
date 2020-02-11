@@ -2,13 +2,19 @@ import $ from 'jquery';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const CONSTANT_NAME = 'CONSTANT';
+const _LEADING_UNDERSCORE = 'Title';
+const PascalCaseTitle = _LEADING_UNDERSCORE;
 
 export interface Props {
-  text: string;
+  greating: string;
 }
 
-export default class App extends React.PureComponent<Props> {
+export interface StateProps {
+  index: number;
+  arr: Array<string>;
+}
+
+export default class App extends React.PureComponent<Props, StateProps> {
   public constructor(props: Props) {
     super(props);
 
@@ -20,14 +26,6 @@ export default class App extends React.PureComponent<Props> {
     $(window).on('resize', this.doAThing);
   }
 
-  public render() {
-    return (
-      <p title={CONSTANT_NAME} onClick={this.onClick.bind(this)}>
-        {this.props.text}
-      </p>
-    );
-  }
-
   private onClick(event) {
     event.preventDefault();
 
@@ -35,6 +33,17 @@ export default class App extends React.PureComponent<Props> {
       index: 1,
     });
   }
+
+  public render() {
+    return (
+      <p title={PascalCaseTitle} onClick={this.onClick.bind(this)}>
+        {this.props.greating}
+      </p>
+    );
+  }
 }
 
-ReactDOM.render(<App text="Hello, World!" />, document.getElementById('app'));
+ReactDOM.render(
+  <App greating="Hello, World!" />,
+  document.getElementById('app')
+);
