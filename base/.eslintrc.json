@@ -36,7 +36,7 @@
 
     "eqeqeq": "error",
     "block-scoped-var": 2,
-    "no-constant-condition": 2,
+    "no-constant-condition": "error",
     "no-console": 2,
     "no-debugger": 2,
     "no-lonely-if": 2,

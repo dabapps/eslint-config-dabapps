@@ -175,7 +175,7 @@ For guidelines regarding the code of conduct when contributing to this repositor
     "interface-name": false, ------------------------------------------- Done, @typescript-eslint/interface-name-prefix
 
     "triple-equals": true, --------------------------------------------- Done, same as Eslint
-    "no-constant-condition": true,
+    "no-constant-condition": true, ------------------------------------- Done, same as Eslint
     "no-console": true,
     "no-debugger": true,
     "no-extra-boolean-cast": true,
