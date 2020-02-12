@@ -22,7 +22,7 @@ export interface SomeProps {
   four?: number;
   five?: number;
   six?: number;
-  seven?: number;
+  seven?: boolean;
 }
 
 const SomeCompWithProps = ({
@@ -69,7 +69,7 @@ export default class App extends React.PureComponent<Props, StateProps> {
       <p title={PascalCaseTitle} onClick={this.onClick}>
         {this.props.greating}
 
-        <SomeCompWithProps one={1} two={2} />
+        <SomeCompWithProps one={1} two={2} seven />
       </p>
     );
   }
