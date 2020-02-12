@@ -15,6 +15,30 @@ export interface StateProps {
   obj: Record<string, any>;
 }
 
+export interface SomeProps {
+  one: number;
+  two: number;
+  three?: number;
+  four?: number;
+  five?: number;
+  six?: number;
+  seven?: number;
+}
+
+const SomeCompWithProps = ({
+  one,
+  two,
+  three,
+  four,
+  five,
+  six,
+  seven,
+}: SomeProps) => (
+  <div>
+    {one} {two} {three} {four} {five} {six} {seven}
+  </div>
+);
+
 export default class App extends React.PureComponent<Props, StateProps> {
   public constructor(props: Props) {
     super(props);
@@ -44,6 +68,8 @@ export default class App extends React.PureComponent<Props, StateProps> {
     return (
       <p title={PascalCaseTitle} onClick={this.onClick}>
         {this.props.greating}
+
+        <SomeCompWithProps one={1} two={2} />
       </p>
     );
   }
