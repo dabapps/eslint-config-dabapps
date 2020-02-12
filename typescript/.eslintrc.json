@@ -16,5 +16,13 @@
     "@typescript-eslint/interface-name-prefix": ["error", {
       "prefixWithI": "never"
     }]
-  }
+  },
+  "overrides": [
+    {
+      "files": ["**/*.tsx"],
+      "rules": {
+        "react/prop-types": "off"
+      }
+    }
+  ]
 }
