@@ -50,6 +50,7 @@
     "react/self-closing-comp": 2,
     "react/sort-comp": 2,
     "react/display-name": 0,
+    "react/jsx-no-bind": 2,
 
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn"

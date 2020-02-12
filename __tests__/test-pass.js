@@ -28,6 +28,7 @@ export default class App extends Component {
     };
 
     $(window).on('resize', this.doAThing);
+    this.onClick.bind(this);
   }
 
   onClick(event) {
@@ -40,7 +41,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <p title={CONSTANT} onClick={this.onClick.bind(this)}>
+      <p title={CONSTANT} onClick={this.onClick}>
         Hello, World! {backtickVar}
       </p>
     );
