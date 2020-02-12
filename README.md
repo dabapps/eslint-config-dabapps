@@ -146,10 +146,10 @@ For guidelines regarding the code of conduct when contributing to this repositor
       "parameters",
       "statements"
     ],
-    "trailing-comma": [
+    "trailing-comma": [ -------------------------------------------------- Done, comma-dangle + combine eslint
       true,
       {
-        "multiline": { --------------------------------------------------- Done, comma-dangle + combine eslint
+        "multiline": {
           "arrays": "always",
           "objects": "always",
           "functions": "never",

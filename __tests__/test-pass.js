@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 const CONSTANT = 'CONSTANT';
 const backtick = 'back\ntick';
 const backtickVar = `back${backtick}tick`;
-const template = 'template';
+const unused = 'warning';
 
 export default class App extends Component {
   constructor() {
