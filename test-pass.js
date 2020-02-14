@@ -1,9 +1,13 @@
-import $ from 'jquery';
+import $ from 'jquery'; /* eslint-disable-line import/no-unresolved */
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom'; /* eslint-disable-line import/no-unresolved */
+import { foo } from './test-import';
+
+console.log(foo); // eslint-disable-line no-console
 
 const CONSTANT = 'CONSTANT';
 
+/* eslint-disable-next-line import/no-unused-modules */
 export default class App extends Component {
   constructor() {
     super();

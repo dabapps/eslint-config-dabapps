@@ -94,3 +94,15 @@ This decision was made to avoid errors in our apps when accidentally using test 
 ## Code of conduct
 
 For guidelines regarding the code of conduct when contributing to this repository please review [https://www.dabapps.com/open-source/code-of-conduct/](https://www.dabapps.com/open-source/code-of-conduct/)
+
+### Import resolvers
+
+If your project uses a custom module resolver (e.g. aliasing `^` to the project root) that is not webpack or the typescript compiler, you will need to define a rule for the import plugin to tell it how to resolve modules.
+
+See https://github.com/benmosher/eslint-plugin-import#resolvers
+
+```
+{
+  "import/resolver": "./my-resolver"
+}
+```
