@@ -1,16 +1,15 @@
-import $ from 'jquery'; /* eslint-disable-line import/no-unresolved */
+import $ from 'jquery';
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom'; /* eslint-disable-line import/no-unresolved */
-import { foo } from './test-import';
+import ReactDOM from 'react-dom';
+import { foo } from './import-fail';
 
-console.log(foo); // eslint-disable-line no-console
+console.log(foo);
 
 const CONSTANT = 'CONSTANT';
 const backtick = 'back\ntick';
 const backtickVar = `back${backtick}tick`;
 const unused = 'warning';
 
-/* eslint-disable-next-line import/no-unused-modules */
 export default class App extends Component {
   constructor() {
     super();

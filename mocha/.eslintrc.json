@@ -1,8 +1,5 @@
 {
-  "extends": [
-    "../base/.eslintrc.json",
-    "plugin:prettier/recommended"
-  ],
+  "extends": ["../base/.eslintrc.json"],
   "env": {
     "mocha": true
   }

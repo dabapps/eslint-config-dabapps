@@ -1,15 +1,10 @@
 {
-  "extends": [
-    "../base/.eslintrc.json",
-    "plugin:prettier/recommended"
-  ],
+  "extends": ["../base/.eslintrc.json", "plugin:prettier/recommended"],
   "env": {
     "es6": true
   },
   "parserOptions": {
-    "ecmaFeatures": {
-      "modules": true
-    },
+    "ecmaFeatures": 9,
     "sourceType": "module",
     "ecmaVersion": 6
   },

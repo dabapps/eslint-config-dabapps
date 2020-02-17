@@ -5,10 +5,10 @@
   "main": ".eslintrc.json",
   "scripts": {
     "jsonlint": "find . -path ./node_modules -prune -o -type f -name '*.json' -exec jsonlint -q '{}' \\;",
-    "lint": "eslint -c .eslintrc.json '{ts,__tests__,types}/*.{ts,tsx,js}'",
-    "test": "npm run prettier-check && npm run jsonlint && npm run lint",
-    "prettier": "prettier --write '{ts,__tests__,types}/*.{ts,tsx,js}'",
-    "prettier-check": "prettier --check '{ts,__tests__,types}/*.{ts,tsx,js}'"
+    "test-config": "./scripts/test-config",
+    "test": "npm run prettier-check && npm run jsonlint && npm run test-config",
+    "prettier": "prettier --write '**/*.{ts,tsx,js,jsx,json}'",
+    "prettier-check": "prettier --check '**/*.{ts,tsx,js,jsx,json}'"
   },
   "repository": {
     "type": "git",

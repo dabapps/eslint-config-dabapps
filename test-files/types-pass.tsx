@@ -39,7 +39,7 @@ const SomeCompWithProps = ({
   </div>
 );
 
-export default class App extends React.PureComponent<Props, StateProps> {
+class App extends React.PureComponent<Props, StateProps> {
   public constructor(props: Props) {
     super(props);
 
@@ -77,5 +77,6 @@ export default class App extends React.PureComponent<Props, StateProps> {
 
 ReactDOM.render(
   <App greating="Hello, World!" />,
+  // eslint-disable-next-line comma-dangle
   document.getElementById('app')
 );

@@ -2,13 +2,9 @@
   "extends": [
     "../base/.eslintrc.json",
     "plugin:react/recommended",
-    "plugin:prettier/recommended",
     "prettier/react"
   ],
-  "plugins": [
-    "react",
-    "react-hooks"
-  ],
+  "plugins": ["react", "react-hooks"],
   "settings": {
     "react": {
       "version": "detect"
@@ -23,11 +19,17 @@
     "jsx-quotes": [2, "prefer-double"],
 
     "react/jsx-indent-props": [2, 2],
-    "react/jsx-handler-names": [2, {
-      "eventHandlerPrefix": "on",
-      "eventHandlerPropPrefix": "on"
-    }],
-    "react/jsx-closing-bracket-location": [2, { "nonEmpty": "line-aligned", "selfClosing": "tag-aligned" }],
+    "react/jsx-handler-names": [
+      2,
+      {
+        "eventHandlerPrefix": "on",
+        "eventHandlerPropPrefix": "on"
+      }
+    ],
+    "react/jsx-closing-bracket-location": [
+      2,
+      { "nonEmpty": "line-aligned", "selfClosing": "tag-aligned" }
+    ],
     "react/jsx-curly-spacing": [2, "never"],
     "react/jsx-equals-spacing": [2, "never"],
     "react/jsx-first-prop-new-line": [2, "multiline"],
