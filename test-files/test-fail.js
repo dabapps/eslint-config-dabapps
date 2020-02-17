@@ -1,7 +1,7 @@
 import $ from 'jquery';
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { foo } from './import-fail';
+import { foo } from './imports-fail';
 
 console.log(foo);
 
