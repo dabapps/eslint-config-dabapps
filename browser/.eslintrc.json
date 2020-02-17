@@ -18,6 +18,7 @@
     "sessionStorage": false,
     "FormData": false,
     "Node": true,
-    "Image": true
+    "Image": true,
+    "CanvasRenderingContext2D": true
   }
 }
