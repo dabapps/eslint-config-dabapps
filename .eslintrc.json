@@ -3,7 +3,7 @@
   "extends": [
     "./commonjs/.eslintrc.json",
     "./browser/.eslintrc.json",
-    "./es6/.eslintrc.json",
+    "./ecmascript/.eslintrc.json",
     "./react/.eslintrc.json",
     "./typescript/.eslintrc.json"
   ]
