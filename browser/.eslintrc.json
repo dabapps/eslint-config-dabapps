@@ -16,6 +16,8 @@
     "cancelAnimationFrame": false,
     "localStorage": false,
     "sessionStorage": false,
-    "FormData": false
+    "FormData": false,
+    "Node": true,
+    "Image": true
   }
 }
