@@ -2,8 +2,9 @@ import $ from 'jquery';
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { foo } from './imports-fail';
+import getMaNumberFunction from './ts-pass';
 
-console.log(foo);
+console.log('HELLO:', foo, getMaNumberFunction(5, 4, 1));
 
 const CONSTANT = 'CONSTANT';
 const backtick = 'back\ntick';
