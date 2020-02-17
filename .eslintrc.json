@@ -1,5 +1,4 @@
 {
-  "root": true,
   "extends": [
     "./commonjs/.eslintrc.json",
     "./browser/.eslintrc.json",

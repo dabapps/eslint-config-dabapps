@@ -1,5 +1,5 @@
 {
-  "extends": ["../base/.eslintrc.json"],
+  "extends": ["../base/.eslintrc.json", "plugin:prettier/recommended"],
   "globals": {
     "window": false,
     "performance": false,
@@ -17,8 +17,8 @@
     "localStorage": false,
     "sessionStorage": false,
     "FormData": false,
-    "Node": true,
-    "Image": true,
-    "CanvasRenderingContext2D": true
+    "Node": false,
+    "Image": false,
+    "CanvasRenderingContext2D": false
   }
 }

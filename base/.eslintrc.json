@@ -3,6 +3,7 @@
     "eslint-config-prettier",
     "eslint:recommended",
     "plugin:import/recommended",
+    "plugin:prettier/recommended",
     "prettier",
     "prettier/standard"
   ],
@@ -11,6 +12,8 @@
     "import/resolver": "webpack"
   },
   "rules": {
+    "prettier/prettier": 2,
+
     "strict": [2, "global"],
     "comma-style": 2,
     "comma-spacing": 2,
@@ -43,7 +46,7 @@
     "eqeqeq": 2,
     "block-scoped-var": 2,
     "no-constant-condition": 2,
-    "no-console": 1,
+    "no-console": 2,
     "no-debugger": 2,
     "no-lonely-if": 2,
     "no-lone-blocks": 2,
