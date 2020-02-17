@@ -2,9 +2,7 @@ import $ from 'jquery';
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { foo } from './imports-fail';
-import getMaNumberFunction from './ts-pass';
-
-console.log('HELLO:', foo, getMaNumberFunction(5, 4, 1));
+import { maFunction } from './ts-pass';
 
 const CONSTANT = 'CONSTANT';
 const backtick = 'back\ntick';
@@ -47,6 +45,7 @@ export default class App extends Component {
     return (
       <p title={CONSTANT} onClick={this.onClick}>
         Hello, World! {backtickVar}
+        {console.log('HELLO:', foo, maFunction(5, 4, 1))}
       </p>
     );
   }

@@ -1,6 +1,6 @@
-function getMaNumberFunction(value: number, ...rest: Array<number>) {
+const getMaNumberFunction = (value: number, ...rest: Array<number>) => {
   return value + rest.reduce((acc: number, curr: number) => acc + curr);
-}
+};
 
 const bazz = {
   baz: 'baz',
