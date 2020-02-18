@@ -87,17 +87,6 @@
     "eol-last": 2,
 
     "max-lines": [2, { "max": 120 }],
-    "comma-dangle": [
-      2,
-      "always-multiline",
-      {
-        "arrays": "never",
-        "objects": "always",
-        "imports": "never",
-        "exports": "always",
-        "functions": "never"
-      }
-    ],
     "no-var": 2,
     "no-unused-expressions": 2,
     "camelcase": [
