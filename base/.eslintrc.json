@@ -77,7 +77,7 @@
         "unusedExports": true
       }
     ],
-    "import/no-deprecated": 1,
+    "import/no-deprecated": 2,
     "import/no-extraneous-dependencies": 2,
     "import/no-mutable-exports": 2,
     "import/no-duplicates": 2,
