@@ -9,7 +9,7 @@ const backtick = 'back\ntick';
 const backtickVar = `back${backtick}tick`;
 const unused = 'warning';
 
-export default class App extends Component {
+class App extends Component {
   constructor() {
     super();
 
