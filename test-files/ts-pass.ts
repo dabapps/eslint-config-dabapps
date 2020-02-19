@@ -1,4 +1,4 @@
-const getMaNumberFunction = (value: number, ...rest: Array<number>) => {
+const getMaNumberFunction = (value: number, ...rest: Array<number>): number => {
   return value + rest.reduce((acc: number, curr: number) => acc + curr);
 };
 

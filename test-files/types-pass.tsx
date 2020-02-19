@@ -1,18 +1,13 @@
 import $ from 'jquery';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { StateProps } from './ts-fail';
 
 const _LEADING_UNDERSCORE = 'Title';
 const PascalCaseTitle = _LEADING_UNDERSCORE;
 
 export interface Props {
   greating: string;
-}
-
-export interface StateProps {
-  index: number;
-  arr: Array<string>;
-  obj: Record<string, any>;
 }
 
 export interface SomeProps {
