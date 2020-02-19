@@ -6,7 +6,7 @@
   "scripts": {
     "jsonlint": "find . -path ./node_modules -prune -o -type f -name '*.json' -exec jsonlint -q '{}' \\;",
     "test-config": "./scripts/test-config",
-    "test": "npm run prettier-check && npm run jsonlint && npm run test-config",
+    "test": "npm run prettier-check && npm run jsonlint && npm run test-config && npm run eslint-check",
     "prettier": "prettier --write '**/*.{ts,tsx,js,jsx,json}'",
     "prettier-check": "prettier --check '**/*.{ts,tsx,js,jsx,json}'",
     "eslint-check": "eslint --print-config .eslint.json | eslint-config-prettier-check",
