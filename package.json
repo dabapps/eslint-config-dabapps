@@ -33,8 +33,8 @@
   },
   "homepage": "https://github.com/dabapps/eslint-config-dabapps",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.19.0",
-    "@typescript-eslint/parser": "^2.19.0",
+    "@typescript-eslint/eslint-plugin": "^2.20.0",
+    "@typescript-eslint/parser": "^2.20.0",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.0",
@@ -43,13 +43,13 @@
     "eslint-plugin-jest": "^23.6.0",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.18.3",
-    "eslint-plugin-react-hooks": "^2.3.0",
+    "eslint-plugin-react-hooks": "^2.4.0",
     "eslint-plugin-react-native": "^3.8.1",
     "prettier": "^1.19.1",
     "typescript": "^3.7.5"
   },
   "devDependencies": {
-    "@types/react": "^16.9.19",
+    "@types/react": "^16.9.20",
     "@types/react-dom": "^16.9.5",
     "jquery": "^3.4.1",
     "jsonlint": "^1.6.3",
