@@ -8,7 +8,9 @@
     "test-config": "./scripts/test-config",
     "test": "npm run prettier-check && npm run jsonlint && npm run test-config",
     "prettier": "prettier --write '**/*.{ts,tsx,js,jsx,json}'",
-    "prettier-check": "prettier --check '**/*.{ts,tsx,js,jsx,json}'"
+    "prettier-check": "prettier --check '**/*.{ts,tsx,js,jsx,json}'",
+    "eslint-print-config": "npx eslint --print-config base/eslint.json | eslint-config-prettier-check",
+    "eslint-deprecated": "npx env ESLINT_CONFIG_PRETTIER_NO_DEPRECATED=true eslint-find-rules --deprecated .eslintrc.json"
   },
   "repository": {
     "type": "git",
