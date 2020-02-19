@@ -4,6 +4,7 @@ const getMaNumberFunction = (value: number, ...rest: Array<number>): number => {
 
 const bazz = {
   baz: 'baz',
+  yo: 3,
 };
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -13,4 +14,4 @@ const anObject = {
   bar: 'bat',
 };
 
-getMaNumberFunction(3, 4, 2, 1);
+getMaNumberFunction(bazz['yo'], 4, 2, 1);
