@@ -68,7 +68,7 @@ class App extends React.PureComponent<Props, StateProps> {
     return (
       <p title={PascalCaseTitle} onClick={this.onClick}>
         {this.props.greating}
-
+        Doesn't do what is supposed to do
         <SomeCompWithProps one={1} two={2} six={this.doAThing} />
       </p>
     );
