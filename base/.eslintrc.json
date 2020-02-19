@@ -41,8 +41,6 @@
     "no-unused-vars": 2,
     "no-use-before-define": 2,
 
-    "space-before-function-paren": 0,
-
     "radix": 2,
     "curly": 2,
     "no-fallthrough": 2,
