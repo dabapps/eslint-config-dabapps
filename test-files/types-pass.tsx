@@ -77,6 +77,5 @@ class App extends React.PureComponent<Props, StateProps> {
 
 ReactDOM.render(
   <App greating="Hello, World!" />,
-  // eslint-disable-next-line comma-dangle
   document.getElementById('app')
 );
