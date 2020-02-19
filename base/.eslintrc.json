@@ -15,32 +15,6 @@
     "prettier/prettier": 2,
 
     "strict": [2, "global"],
-    "comma-style": 2,
-    "comma-spacing": 2,
-    "indent": [
-      2,
-      2,
-      {
-        "SwitchCase": 1,
-        "outerIIFEBody": 1,
-        "MemberExpression": 1,
-        "ArrayExpression": 1,
-        "ObjectExpression": 1
-      }
-    ],
-    "quotes": [2, "single", { "allowTemplateLiterals": false }],
-    "linebreak-style": [2, "unix"],
-    "semi": [2, "always"],
-    "semi-spacing": [2, { "before": false, "after": true }],
-    "max-len": [
-      2,
-      {
-        "code": 120,
-        "ignoreComments": true,
-        "ignoreUrls": true
-      }
-    ],
-    "dot-location": [2, "property"],
     "no-duplicate-imports": [2, { "includeExports": true }],
 
     "eqeqeq": 2,
@@ -51,12 +25,9 @@
     "no-lonely-if": 2,
     "no-lone-blocks": 2,
     "no-nested-ternary": 2,
-    "no-mixed-spaces-and-tabs": 2,
     "no-dupe-keys": 2,
     "no-extra-boolean-cast": 2,
     "no-irregular-whitespace": 2,
-    "no-multi-spaces": 2,
-    "no-multiple-empty-lines": 2,
     "no-else-return": 0,
     "no-eval": 2,
     "no-multi-str": 2,
@@ -64,19 +35,13 @@
     "no-useless-call": 2,
     "no-shadow-restricted-names": 2,
     "no-shadow": 2,
-    "no-trailing-spaces": 2,
     "no-undef": 2,
     "no-undef-init": 2,
     "no-unreachable": 2,
     "no-unused-vars": 2,
     "no-use-before-define": 2,
-    "no-extra-semi": 2,
 
-    "keyword-spacing": 2,
-    "space-before-blocks": 2,
     "space-before-function-paren": 0,
-    "space-infix-ops": 2,
-    "space-unary-ops": 2,
 
     "radix": 2,
     "curly": 2,
@@ -84,7 +49,6 @@
     "default-case": 2,
     "no-plusplus": 0,
     "dot-notation": 0,
-    "eol-last": 2,
 
     "max-lines": [2, { "max": 120 }],
     "no-var": 2,

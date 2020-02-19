@@ -9,7 +9,7 @@
     "test": "npm run prettier-check && npm run jsonlint && npm run test-config",
     "prettier": "prettier --write '**/*.{ts,tsx,js,jsx,json}'",
     "prettier-check": "prettier --check '**/*.{ts,tsx,js,jsx,json}'",
-    "eslint-print-config": "npx eslint --print-config base/eslint.json | eslint-config-prettier-check",
+    "eslint-check": "npx eslint --print-config .eslint.json | eslint-config-prettier-check",
     "eslint-deprecated": "npx env ESLINT_CONFIG_PRETTIER_NO_DEPRECATED=true eslint-find-rules --deprecated .eslintrc.json"
   },
   "repository": {
@@ -53,6 +53,7 @@
   "devDependencies": {
     "@types/react": "^16.9.20",
     "@types/react-dom": "^16.9.5",
+    "eslint-find-rules": "^3.4.0",
     "jquery": "^3.4.1",
     "jsonlint": "^1.6.3",
     "react": "^16.12.0",

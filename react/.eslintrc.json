@@ -18,7 +18,6 @@
   "rules": {
     "jsx-quotes": [2, "prefer-double"],
 
-    "react/jsx-indent-props": [2, 2],
     "react/jsx-handler-names": [
       2,
       {
@@ -26,17 +25,8 @@
         "eventHandlerPropPrefix": "on"
       }
     ],
-    "react/jsx-closing-bracket-location": [
-      2,
-      { "nonEmpty": "line-aligned", "selfClosing": "tag-aligned" }
-    ],
-    "react/jsx-curly-spacing": [2, "never"],
-    "react/jsx-equals-spacing": [2, "never"],
-    "react/jsx-first-prop-new-line": [2, "multiline"],
-    "react/jsx-max-props-per-line": [2, { "maximum": 3, "when": "multiline" }],
     "react/jsx-pascal-case": [2, { "allowAllCaps": true }],
 
-    "react/jsx-tag-spacing": 2,
     "react/jsx-no-duplicate-props": 2,
     "react/jsx-boolean-value": 2,
     "react/jsx-no-undef": 2,
@@ -56,7 +46,6 @@
     "react/sort-comp": 2,
     "react/display-name": 0,
     "react/jsx-no-bind": 2,
-    "react/jsx-wrap-multilines": 2,
 
     "react-hooks/rules-of-hooks": 2,
     "react-hooks/exhaustive-deps": 1

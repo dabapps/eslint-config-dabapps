@@ -10,14 +10,7 @@
   "plugins": ["@typescript-eslint"],
   "rules": {
     "@typescript-eslint/no-explicit-any": 1,
-    "@typescript-eslint/explicit-function-return-type": 0,
-    "@typescript-eslint/semi": 2,
-    "@typescript-eslint/interface-name-prefix": [
-      2,
-      {
-        "prefixWithI": "never"
-      }
-    ]
+    "@typescript-eslint/explicit-function-return-type": 0
   },
   "overrides": [
     {
