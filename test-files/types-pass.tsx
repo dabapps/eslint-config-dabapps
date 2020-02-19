@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import React from 'react';
+import React, { ReactNode } from 'react';
 import ReactDOM from 'react-dom';
 import { StateProps } from './ts-fail';
 
@@ -18,9 +18,11 @@ export interface SomeProps {
   five?: number;
   six: () => void;
   seven?: boolean;
+  children?: ReactNode;
 }
 
 const SomeCompWithProps = ({
+  children,
   one,
   two,
   three,
@@ -31,6 +33,7 @@ const SomeCompWithProps = ({
 }: SomeProps) => (
   <div>
     {one} {two} {three} {four} {five} {six} {seven}
+    {children}
   </div>
 );
 
@@ -61,11 +64,22 @@ class App extends React.PureComponent<Props, StateProps> {
 
   public render() {
     return (
-      <p title={PascalCaseTitle} onClick={this.onClick}>
-        {this.props.greating}
-        Doesn't do what is supposed to do
-        <SomeCompWithProps one={1} two={2} six={this.doAThing} />
-      </p>
+      <>
+        <p title={PascalCaseTitle} onClick={this.onClick}>
+          {this.props.greating}
+          Doesn't do what is supposed to do
+        </p>
+
+        <SomeCompWithProps
+          one={1}
+          two={2}
+          three={2}
+          four={2}
+          six={this.doAThing}
+        >
+          <span>Children</span>
+        </SomeCompWithProps>
+      </>
     );
   }
 }
