@@ -6,6 +6,7 @@ const bazz = {
   baz: 'baz',
 };
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const anObject = {
   ...bazz,
   foo: 'fo',
