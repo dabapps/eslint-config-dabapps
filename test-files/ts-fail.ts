@@ -5,7 +5,7 @@ export interface StateProps {
 }
 
 // eslint-disable-next-line prettier/prettier
-function foo () {
+function foo() {
   const x = 0;
   const y = 1;
   if (x) {

@@ -56,7 +56,6 @@
         "allow": ["^UNSAFE_"]
       }
     ],
-    "sort-keys": 0,
     "import/no-unresolved": [
       2,
       {

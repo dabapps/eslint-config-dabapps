@@ -3,8 +3,8 @@ const getMaNumberFunction = (value: number, ...rest: Array<number>): number => {
 };
 
 const bazz = {
-  baz: 'baz',
   yo: 3,
+  baz: 'baz',
 };
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
