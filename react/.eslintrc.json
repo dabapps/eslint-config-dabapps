@@ -44,10 +44,9 @@
     "react/require-render-return": 2,
     "react/self-closing-comp": 2,
     "react/sort-comp": 2,
-    "react/display-name": 0,
     "react/jsx-no-bind": 2,
 
     "react-hooks/rules-of-hooks": 2,
-    "react-hooks/exhaustive-deps": 1
+    "react-hooks/exhaustive-deps": 2
   }
 }
