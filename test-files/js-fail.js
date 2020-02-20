@@ -43,12 +43,12 @@ class App extends Component {
 
   render() {
     return (
-      <p title={CONSTANT} onClick={this.onClick}>
-        Hello, World! {backtickVar}
+      <p className={CONSTANT} onClick={this.onClick}>
+        {this.props.title} {backtickVar}
         {console.log('HELLO:', foo, maFunction(5, 4, 1))}
       </p>
     );
   }
 }
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(<App title="Hello, World!" />, document.getElementById('app'));
