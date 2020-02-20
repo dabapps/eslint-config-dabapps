@@ -17,7 +17,6 @@
   },
   "rules": {
     "jsx-quotes": [2, "prefer-double"],
-
     "react/jsx-handler-names": [
       2,
       {
@@ -25,15 +24,18 @@
         "eventHandlerPropPrefix": "on"
       }
     ],
-    "react/jsx-pascal-case": [2, { "allowAllCaps": true }],
-
+    "react/jsx-pascal-case": [
+      2,
+      {
+        "allowAllCaps": true
+      }
+    ],
     "react/jsx-no-duplicate-props": 2,
     "react/jsx-boolean-value": 2,
     "react/jsx-no-undef": 2,
     "react/jsx-uses-react": 2,
     "react/jsx-uses-vars": 2,
     "react/jsx-key": 2,
-
     "react/react-in-jsx-scope": 2,
     "react/no-children-prop": 2,
     "react/no-direct-mutation-state": 2,
@@ -45,7 +47,6 @@
     "react/self-closing-comp": 2,
     "react/sort-comp": 2,
     "react/jsx-no-bind": 2,
-
     "react-hooks/rules-of-hooks": 2,
     "react-hooks/exhaustive-deps": 2
   }

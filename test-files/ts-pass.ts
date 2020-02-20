@@ -1,10 +1,12 @@
+import { baz } from './imports-pass';
+
 const getMaNumberFunction = (value: number, ...rest: Array<number>): number => {
   return value + rest.reduce((acc: number, curr: number) => acc + curr);
 };
 
 const bazz = {
   yo: 3,
-  baz: 'baz',
+  baz: baz,
 };
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
