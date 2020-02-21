@@ -9,7 +9,11 @@
   ],
   "plugins": ["prettier"],
   "settings": {
-    "import/resolver": "webpack"
+    "import/resolver": {
+      "webpack": {
+        "config": "./webpack.config.js"
+      }
+    }
   },
   "rules": {
     "prettier/prettier": 2,
