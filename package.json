@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dabapps",
-  "version": "5.1.0",
+  "version": "5.1.1",
   "description": "DabApps ESLint Configuration",
   "main": ".eslintrc.json",
   "scripts": {
@@ -31,7 +31,7 @@
   "homepage": "https://github.com/dabapps/eslint-config-dabapps",
   "dependencies": {
     "eslint": "^6.8.0",
-    "eslint-config-prettier": "6.9.0",
+    "eslint-config-prettier": "^6.9.0",
     "eslint-import-resolver-webpack": "^0.12.1",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-prettier": "^3.1.2",
@@ -43,9 +43,9 @@
   },
   "peerDependencies": {
     "eslint": "^6.8.0",
-    "prettier": "1.19.1",
-    "eslint-config-prettier": "6.9.0",
-    "eslint-plugin-prettier": "3.1.2",
+    "prettier": "^1.19.1",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
     "eslint-import-resolver-webpack": "^0.12.1",
     "eslint-plugin-import": "^2.20.1"
   },
