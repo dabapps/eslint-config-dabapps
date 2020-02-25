@@ -1,6 +1,7 @@
 {
   "extends": [
-    "../base/.eslintrc.json",
+    "../commonjs/.eslintrc.json",
+    "plugin:jest/recommended",
     "plugin:prettier/recommended"
   ],
   "env": {

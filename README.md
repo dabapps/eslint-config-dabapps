@@ -44,9 +44,7 @@ Create an `.eslintrc.json` in the route of the project. For most projects you ca
 
 ```json
 {
-  "extends": [
-    "dabapps"
-  ]
+  "extends": ["dabapps"]
 }
 ```
 

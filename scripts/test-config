@@ -1,0 +1,9 @@
+#! /bin/bash
+
+npx eslint 'test-files/*-pass.{ts,tsx,js,jsx}'
+
+if npx eslint 'test-files/*-fail.{ts,tsx,js,jsx}'; then
+  echo 'Failing tests passed' && exit 1;
+else
+  echo 'All tests successfully passed or failed';
+fi

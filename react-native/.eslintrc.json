@@ -1,13 +1,11 @@
 {
   "extends": [
-    "../base/.eslintrc.json",
+    "../commonjs/.eslintrc.json",
     "../react/.eslintrc.json",
-    "plugin:prettier/recommended",
-    "plugin:import/react-native"
+    "plugin:import/react-native",
+    "plugin:prettier/recommended"
   ],
-  "plugins": [
-    "react-native"
-  ],
+  "plugins": ["react-native"],
   "parser": "babel-eslint",
   "rules": {
     "react-native/no-unused-styles": 2,

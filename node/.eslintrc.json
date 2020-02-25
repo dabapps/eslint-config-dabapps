@@ -1,8 +1,5 @@
 {
-  "extends": [
-    "../base/.eslintrc.json",
-    "plugin:prettier/recommended"
-  ],
+  "extends": ["../commonjs/.eslintrc.json", "plugin:prettier/recommended"],
   "env": {
     "node": true
   }

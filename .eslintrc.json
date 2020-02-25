@@ -2,7 +2,9 @@
   "extends": [
     "./commonjs/.eslintrc.json",
     "./browser/.eslintrc.json",
-    "./es6/.eslintrc.json",
-    "./react/.eslintrc.json"
+    "./es/.eslintrc.json",
+    "./react/.eslintrc.json",
+    "./typescript/.eslintrc.json",
+    "plugin:prettier/recommended"
   ]
 }
