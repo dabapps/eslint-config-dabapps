@@ -1,11 +1,18 @@
 {
-  "extends": ["../base/.eslintrc.json", "plugin:prettier/recommended"],
+  "extends": [
+    "../commonjs/.eslintrc.json",
+    "plugin:import/recommended",
+    "plugin:prettier/recommended"
+  ],
   "env": {
     "es6": true
   },
   "parserOptions": {
     "sourceType": "module",
     "ecmaVersion": 9
+  },
+  "settings": {
+    "import/resolver": "webpack"
   },
   "rules": {
     "no-var": 2

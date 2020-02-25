@@ -1,8 +1,9 @@
 {
   "extends": [
-    "../base/.eslintrc.json",
+    "../commonjs/.eslintrc.json",
     "../react/.eslintrc.json",
-    "plugin:import/react-native"
+    "plugin:import/react-native",
+    "plugin:prettier/recommended"
   ],
   "plugins": ["react-native"],
   "parser": "babel-eslint",

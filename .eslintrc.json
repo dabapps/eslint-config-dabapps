@@ -4,6 +4,8 @@
     "./browser/.eslintrc.json",
     "./ecmascript/.eslintrc.json",
     "./react/.eslintrc.json",
-    "./typescript/.eslintrc.json"
+    "./typescript/.eslintrc.json",
+    "plugin:import/recommended",
+    "plugin:prettier/recommended"
   ]
 }

@@ -1,7 +1,8 @@
 {
   "extends": [
     "../base/.eslintrc.json",
-    "plugin:react/recommended",
+    "plugin:import/recommended",
+    "plugin:prettier/recommended",
     "prettier/react"
   ],
   "plugins": ["react", "react-hooks"],
