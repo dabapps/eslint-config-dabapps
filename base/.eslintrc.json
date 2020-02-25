@@ -9,7 +9,7 @@
   ],
   "plugins": ["prettier"],
   "settings": {
-    "import/resolver": "eslint-import-resolver-alias"
+    "import/resolver": "webpack"
   },
   "rules": {
     "prettier/prettier": 2,
