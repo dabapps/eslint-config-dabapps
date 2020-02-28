@@ -48,6 +48,40 @@
         "allow": ["^UNSAFE_"]
       }
     ],
+    "import/order": [
+      1,
+      {
+        "newlines-between": "always",
+        "pathGroups": [
+          {
+            "group": "builtin",
+            "pattern": "^[@a-zA-Z]",
+            "position": "before"
+          },
+          {
+            "group": "external",
+            "pattern": "^[@a-zA-Z]",
+            "position": "before"
+          },
+          {
+            "group": "internal",
+            "pattern": "^[^@a-zA-Z]",
+            "position": "after"
+          },
+          {
+            "group": "parent",
+            "pattern": "^[^@a-zA-Z]",
+            "position": "after"
+          },
+          {
+            "group": "sibling",
+            "pattern": "*",
+            "position": "after"
+          }
+        ]
+      }
+    ],
+    "import/no-relative-parent-imports": 2,
     "import/no-unresolved": [
       2,
       {
