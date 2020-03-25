@@ -52,31 +52,15 @@
       1,
       {
         "newlines-between": "always",
+        "groups": [
+          ["builtin", "external"],
+          ["internal", "parent", "sibling", "index"],
+          ["unknown"]
+        ],
         "pathGroups": [
           {
-            "group": "builtin",
-            "pattern": "^[@a-zA-Z]",
-            "position": "before"
-          },
-          {
-            "group": "external",
-            "pattern": "^[@a-zA-Z]",
-            "position": "before"
-          },
-          {
             "group": "internal",
-            "pattern": "^[^@a-zA-Z]",
-            "position": "after"
-          },
-          {
-            "group": "parent",
-            "pattern": "^[^@a-zA-Z]",
-            "position": "after"
-          },
-          {
-            "group": "sibling",
-            "pattern": "*",
-            "position": "after"
+            "pattern": "^"
           }
         ]
       }
