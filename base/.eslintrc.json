@@ -38,7 +38,6 @@
     "no-fallthrough": 2,
     "default-case": 2,
 
-    "max-lines": [2, { "max": 120 }],
     "no-var": 2,
     "no-unused-expressions": 2,
     "camelcase": [
