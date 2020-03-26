@@ -49,7 +49,7 @@
       }
     ],
     "import/order": [
-      1,
+      2,
       {
         "newlines-between": "always",
         "groups": [
