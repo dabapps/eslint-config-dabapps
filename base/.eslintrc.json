@@ -4,7 +4,7 @@
     "plugin:import/recommended",
     "plugin:prettier/recommended"
   ],
-  "plugins": ["prettier"],
+  "plugins": ["prettier", "dabapps"],
   "rules": {
     "strict": [2, "global"],
     "no-duplicate-imports": [2, { "includeExports": true }],
@@ -112,6 +112,7 @@
         "allowLiteral": false,
         "allowObject": false
       }
-    ]
+    ],
+    "dabapps/no-relative-parent-import": 2
   }
 }
