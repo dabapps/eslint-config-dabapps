@@ -60,7 +60,7 @@
         "pathGroups": [
           {
             "group": "internal",
-            "pattern": "^"
+            "pattern": "^/**"
           }
         ]
       }
