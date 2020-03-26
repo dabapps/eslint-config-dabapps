@@ -48,6 +48,23 @@
         "allow": ["^UNSAFE_"]
       }
     ],
+    "import/order": [
+      2,
+      {
+        "newlines-between": "always",
+        "groups": [
+          ["builtin", "external"],
+          ["internal", "parent", "sibling", "index"],
+          ["unknown"]
+        ],
+        "pathGroups": [
+          {
+            "group": "internal",
+            "pattern": "^/**"
+          }
+        ]
+      }
+    ],
     "import/no-unresolved": [
       2,
       {
