@@ -111,7 +111,6 @@
         "allowLiteral": false,
         "allowObject": false
       }
-    ],
-    "dabapps/no-relative-parent-import": 2
+    ]
   }
 }
