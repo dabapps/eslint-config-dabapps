@@ -18,6 +18,7 @@
     "@typescript-eslint/type-annotation-spacing": 0,
     "@typescript-eslint/no-unused-vars": 2,
     "import/named": 0,
-    "react/sort-comp": 0
+    "react/sort-comp": 0,
+    "dabapps/no-relative-parent-import": 2
   }
 }
