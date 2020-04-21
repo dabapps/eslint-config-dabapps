@@ -111,6 +111,7 @@
         "allowLiteral": false,
         "allowObject": false
       }
-    ]
+    ],
+    "import/named": 2
   }
 }
