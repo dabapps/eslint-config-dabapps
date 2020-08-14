@@ -93,7 +93,7 @@
         "tsx": "never"
       }
     ],
-    "import/prefer-default-export": 2,
+    "import/prefer-default-export": 0,
     "import/no-anonymous-default-export": [
       2,
       {
