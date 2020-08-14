@@ -76,7 +76,8 @@
     "import/no-unused-modules": [
       2,
       {
-        "unusedExports": true
+        "unusedExports": false,
+        "missingExports": true
       }
     ],
     "import/no-deprecated": 2,
