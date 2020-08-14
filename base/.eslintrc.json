@@ -40,13 +40,7 @@
 
     "no-var": 2,
     "no-unused-expressions": 2,
-    "camelcase": [
-      2,
-      {
-        "properties": "always",
-        "allow": ["^UNSAFE_"]
-      }
-    ],
+    "camelcase": 0,
     "import/order": [
       2,
       {
