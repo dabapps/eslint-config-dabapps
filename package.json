@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dabapps",
-  "version": "6.1.4",
+  "version": "7.0.0",
   "description": "DabApps ESLint Configuration",
   "main": ".eslintrc.json",
   "scripts": {
@@ -35,8 +35,8 @@
   },
   "homepage": "https://github.com/dabapps/eslint-config-dabapps",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.20.0",
-    "@typescript-eslint/parser": "^2.20.0",
+    "@typescript-eslint/eslint-plugin": "^4.15.2",
+    "@typescript-eslint/parser": "^4.15.2",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.0",
