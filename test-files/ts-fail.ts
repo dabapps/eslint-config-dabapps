@@ -17,3 +17,9 @@ function foo() {
 }
 
 foo();
+
+usedBeforeDefine();
+
+function usedBeforeDefine() {
+  console.log('Disallowed log');
+}
