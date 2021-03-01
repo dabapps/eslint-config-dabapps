@@ -16,4 +16,12 @@ const anObject = {
   bar: 'bat',
 };
 
+interface HasOptional {
+  foo?: () => void;
+}
+
+const hasOptional: HasOptional = {};
+
+hasOptional.foo?.();
+
 getMaNumberFunction(bazz['yo'], 4, 2, 1);

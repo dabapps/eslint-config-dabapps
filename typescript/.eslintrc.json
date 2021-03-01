@@ -18,14 +18,16 @@
     "@typescript-eslint/type-annotation-spacing": 0,
     "@typescript-eslint/no-unused-vars": 2,
     "@typescript-eslint/camelcase": 0,
-    "dabapps/no-relative-parent-import": 2
+    "dabapps/no-relative-parent-import": 2,
+    "@typescript-eslint/no-unused-expressions": 2
   },
   "overrides": [
     {
       "files": ["*.ts", "*.tsx"],
       "rules": {
         "import/named": 0,
-        "react/sort-comp": 0
+        "react/sort-comp": 0,
+        "no-unused-expressions": 0
       }
     }
   ]
