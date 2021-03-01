@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import React, { ReactNode } from 'react';
+import React, { MouseEvent, ReactNode } from 'react';
 import ReactDOM from 'react-dom';
 
 const _LEADING_UNDERSCORE = 'Title';
@@ -59,7 +59,7 @@ class App extends React.PureComponent<Props, StateProps> {
     throw new Error('Method not implemented.');
   }
 
-  private onClick(event) {
+  private onClick(event: MouseEvent) {
     event.preventDefault();
 
     this.setState({
