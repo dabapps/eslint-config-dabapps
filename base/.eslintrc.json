@@ -101,8 +101,6 @@
         "allowObject": false
       }
     ],
-    "import/named": 2,
-
-    "@typescript-eslint/no-shadow": 2
+    "import/named": 2
   }
 }
