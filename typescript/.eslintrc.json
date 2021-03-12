@@ -20,7 +20,8 @@
     "@typescript-eslint/camelcase": 0,
     "dabapps/no-relative-parent-import": 2,
     "@typescript-eslint/no-unused-expressions": 2,
-    "@typescript-eslint/no-use-before-define": 2
+    "@typescript-eslint/no-use-before-define": 2,
+    "@typescript-eslint/no-shadow": 2
   },
   "overrides": [
     {
@@ -29,7 +30,8 @@
         "import/named": 0,
         "react/sort-comp": 0,
         "no-unused-expressions": 0,
-        "no-use-before-define": 0
+        "no-use-before-define": 0,
+        "no-shadow": 0
       }
     }
   ]
