@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dabapps",
-  "version": "7.0.1",
+  "version": "8.0.0",
   "description": "DabApps ESLint Configuration",
   "main": ".eslintrc.json",
   "scripts": {
@@ -35,23 +35,25 @@
   },
   "homepage": "https://github.com/dabapps/eslint-config-dabapps",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.15.2",
-    "@typescript-eslint/parser": "^4.15.2",
-    "babel-eslint": "^10.0.3",
-    "eslint": "^6.8.0",
+    "@babel/core": "^7.13.10",
+    "@babel/eslint-parser": "^7.13.10",
+    "@typescript-eslint/eslint-plugin": "^4.17.0",
+    "@typescript-eslint/parser": "^4.17.0",
+    "eslint": "^7.21.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-import-resolver-webpack": "^0.12.1",
-    "eslint-plugin-dabapps": "^1.0.0",
+    "eslint-plugin-dabapps": "^1.0.1",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jest": "^23.6.0",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.18.3",
-    "eslint-plugin-react-hooks": "^2.4.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-react-native": "^3.8.1",
     "prettier": "^1.19.1",
     "typescript": "*"
   },
   "devDependencies": {
+    "@types/jquery": "^3.5.5",
     "@types/react": "^16.9.20",
     "@types/react-dom": "^16.9.5",
     "eslint-find-rules": "^3.4.0",
@@ -62,6 +64,6 @@
     "webpack": "^4.41.6"
   },
   "peerDependencies": {
-    "eslint": "^6.8.0"
+    "eslint": "^7.21.0"
   }
 }
