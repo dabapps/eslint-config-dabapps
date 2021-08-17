@@ -95,3 +95,11 @@ See https://github.com/benmosher/eslint-plugin-import#resolvers
   "import/resolver": "./my-resolver"
 }
 ```
+
+For instance older projects using webpack should have the following in their `.eslintrc.json` file:
+
+```
+  "settings": {
+    "import/resolver": "webpack"
+  },
+```
