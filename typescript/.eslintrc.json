@@ -15,7 +15,6 @@
     "@typescript-eslint/type-annotation-spacing": 0,
     "@typescript-eslint/no-unused-vars": 2,
     "@typescript-eslint/camelcase": 0,
-    "dabapps/no-relative-parent-import": 2,
     "@typescript-eslint/no-unused-expressions": 2,
     "@typescript-eslint/no-use-before-define": 2,
     "@typescript-eslint/no-shadow": 2

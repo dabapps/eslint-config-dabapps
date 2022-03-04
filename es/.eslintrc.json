@@ -15,7 +15,6 @@
     "import/resolver": "webpack"
   },
   "rules": {
-    "no-var": 2,
-    "dabapps/no-relative-parent-import": 2
+    "no-var": 2
   }
 }
