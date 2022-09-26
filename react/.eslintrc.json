@@ -3,7 +3,7 @@
     "../base/.eslintrc.json",
     "plugin:import/recommended",
     "plugin:prettier/recommended",
-    "prettier/react"
+    "prettier"
   ],
   "plugins": ["react", "react-hooks"],
   "settings": {
